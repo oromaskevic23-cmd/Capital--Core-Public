@@ -41,7 +41,7 @@ Alexander Romaskevich (RomaskevicH) is the Founder, Owner and CEO of IMPERIAL Co
 - Bio: `Founder • Owner • CEO of IMPERIAL Core | Architect | Governed AI agents, verified software engineering & autonomous digital systems`
 - Website: use a verified, identity-consistent live page; the existing account's Val Town URL returned HTTP 404 in this audit.
 
-The profile README is [ready here](../profile/README.md). GitHub displays it when the public repository `oromaskevic23-cmd/oromaskevic23-cmd` exists with this content as root `README.md`. At the checkpoint, the repository was absent and the connected GitHub tools did not expose account updates or repository creation.
+**Verified public GitHub profile repository (25 October 2026):** [oromaskevic23-cmd/oromaskevic23-cmd](https://github.com/oromaskevic23-cmd/oromaskevic23-cmd) now exists as a PUBLIC repository with a root [README.md](https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/blob/main/README.md). The earlier prepared [profile README template](../profile/README.md) remains historical source material. The profile repository's existence and README content were checked through the connected GitHub account; actual Google indexing and Knowledge Panel status remain NOT_VERIFIED.
 
 ## Consistent use across channels
 
