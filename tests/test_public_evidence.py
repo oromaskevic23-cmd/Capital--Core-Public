@@ -3,7 +3,8 @@ import copy
 import json
 from pathlib import Path
 import unittest
-from tools.verify_milestones import static_errors, live_errors
+from tools.verify_milestones import static_errors, live_errors, github_get
+from unittest.mock import patch
 
 DATA = json.loads((Path(__file__).resolve().parents[1] /
                    "evidence" / "milestones.json").read_text())["milestones"]
@@ -82,6 +83,22 @@ class PublicEvidenceTests(unittest.TestCase):
             target: {"id": record["job_id"], "run_id": record["run_id"],
                      "status": "completed", "conclusion": "failure"}
         })))
+
+    def test_api_allowlist_accepts_exact_read_only_paths(self):
+        base = "/repos/oromaskevic23-cmd/HANTER"
+        urls = (base, base + "/pulls/3", base + "/actions/runs/40143068272",
+                base + "/actions/jobs/121018657164")
+        with patch("tools.verify_milestones.urllib.request.urlopen",
+                   side_effect=RuntimeError("VALID_ENDPOINT_REACHED")):
+            for path in urls:
+                with self.subTest(path=path):
+                    with self.assertRaisesRegex(RuntimeError, "VALID_ENDPOINT_REACHED"):
+                        github_get(path)
+            for path in ("/user", base + "/../../user", base + "/pulls/not-an-id",
+                         base + "/actions/jobs/9/../../admin"):
+                with self.subTest(rejected=path):
+                    with self.assertRaises(ValueError):
+                        github_get(path)
 
     def test_reject_missing_api(self):
         record = DATA[0]

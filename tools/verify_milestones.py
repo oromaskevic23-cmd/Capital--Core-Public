@@ -64,7 +64,7 @@ def static_errors(record):
 
 def github_get(endpoint):
     if not re.fullmatch(r"/repos/" + OWNER + r"/[A-Za-z0-9_.-]+"
-                        r"(?:/pulls/\\d+|/actions/runs/\\d+|/actions/jobs/\\d+)?", endpoint):
+                        r"(?:/pulls/\d+|/actions/runs/\d+|/actions/jobs/\d+)?", endpoint):
         raise ValueError("refused API endpoint")
     headers = {"Accept": "application/vnd.github+json",
                "User-Agent": "imperial-public-evidence-check/1",
