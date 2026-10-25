@@ -4,18 +4,42 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   verify:
+    name: offline-evidence
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 4
     steps:
       - name: Checkout reviewed revision
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # verified v4 ref
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # pinned v4
         with:
           persist-credentials: false
-      - name: Validate public documentation
+      - name: Verify documentation and disclosure boundaries
         run: python3 tools/verify_public_docs.py
+      - name: Test evidence validator, including negative paths
+        run: python3 -m unittest discover -s tests -v
+      - name: Check archived evidence record integrity
+        run: python3 tools/verify_milestones.py
+
+  live-evidence:
+    name: live-evidence
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: read
+      pull-requests: read
+    steps:
+      - name: Checkout reviewed revision
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # pinned v4
+        with:
+          persist-credentials: false
+      - name: Requery public GitHub repo / PR / run / job status
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/verify_milestones.py --live
