@@ -17,6 +17,9 @@
     "evidence/audit-ledger.json",
     "evidence/milestones.json",
     "profile/README.md",
-    "tools/verify_public_docs.py"
+    "tools/verify_public_docs.py",
+    "docs/LIVE_EVIDENCE_CHECK.md",
+    "tests/test_public_evidence.py",
+    "tools/verify_milestones.py"
   ]
 }
