@@ -10,7 +10,7 @@ Architect / Final Architectural Decision Authority · Ukraine
 
 ## Start here
 
-- [Founder profile](profile/README.md) and [multilingual identity](docs/FOUNDER_IDENTITY.md).
+- [Live GitHub Founder Profile](https://github.com/oromaskevic23-cmd) · [versioned Enterprise README](profile/README.md) · [multilingual identity](docs/FOUNDER_IDENTITY.md).
 - [Public technology portfolio](docs/PORTFOLIO.md) and [verified engineering milestones](docs/EVIDENCE.md).
 - [Architecture](ARCHITECTURE.md), [roadmap](ROADMAP.md) and [change history](CHANGELOG.md).
 - [Security and responsible disclosure](SECURITY.md), [contributing](CONTRIBUTING.md) and [source provenance](PROVENANCE.md).
