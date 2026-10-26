@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-26",
+  "canonical_base": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference",
+  "pages": [
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/constructor-ai/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/constructor-ai/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/constructor-ai/"
+  ],
+  "files": [
+    {
+      "path": "assets/alexander-romaskevich.jpeg",
+      "sha256": "7758dacaa2b08ee3b305489297714d23ec4c6f819b546ea7c8e79e4fd54e7b07"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+    },
+    {
+      "path": "assets/imperial-ecosystem.jpeg",
+      "sha256": "be65b4693a6dc1a81f7ab0f0e29b2632f80edcb8da83960cd708701d75517ac7"
+    },
+    {
+      "path": "assets/nano-core-agents.jpeg",
+      "sha256": "317513f510cd2bcf2b2c5dca1db51c45245ad862f3183aa399764ea009e0dcbd"
+    },
+    {
+      "path": "assets/og.png",
+      "sha256": "f565b7c425e0f09d8e33869160a5a2c7baf6ba4b985150c1ce70033dba826722"
+    },
+    {
+      "path": "assets/reference.css",
+      "sha256": "7865504116336a4fb2f9e245871aa4aab7012efc59cccafbbe9772c4e2982098"
+    },
+    {
+      "path": "assets/reference.js",
+      "sha256": "78ff54e886c1968951827b50c6444e596195199b35b09e764920d11cfcac956c"
+    },
+    {
+      "path": "constructor-ai/evidence.json",
+      "sha256": "b97663e2d10aba0396d1bb4cab22544f333319eda2cd7aa149ea4711889c8329"
+    },
+    {
+      "path": "constructor-ai/index.html",
+      "sha256": "3821c733ed50cd61392220ad9ca210c3f2cecb52d7008ed7ba750478ba5329fc"
+    },
+    {
+      "path": "de-CH/index.html",
+      "sha256": "69ed8ddbe86b58d97fbad044a2dbc50dac6db72393517e2a5b009fe7a03c2d33"
+    },
+    {
+      "path": "index.html",
+      "sha256": "a6920cb75e3e57a1b0ab57c1ebf55967a8ffc7e79393008e569d14ab69bff724"
+    },
+    {
+      "path": "ja/index.html",
+      "sha256": "cf21aa5460ba8fa3e0c087c2532afc7092830d66cbd71c2318bfe61ffe5908b3"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "f12538987bc6e981a85a37878907e25f8b907560e99b50308937d1a001e303c7"
+    },
+    {
+      "path": "ru/constructor-ai/index.html",
+      "sha256": "162c322c2e57b2dd37ca86811f62af2ea672a352420cf59793eebd2f7c33b3ef"
+    },
+    {
+      "path": "ru/index.html",
+      "sha256": "0f10dfc487fc1c5b8110b9f34ad81f759b12993f4c191f2a01d48018b28519db"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "b8285260b0cedf9e7b9af2f8a2a14bb942cfad9ee22acf3492563272ffe59c2a"
+    },
+    {
+      "path": "uk/constructor-ai/index.html",
+      "sha256": "3b9247335a598d187addbcab8797718bf4079edcefb183cb029e9fd83999a021"
+    },
+    {
+      "path": "uk/index.html",
+      "sha256": "5d037ebb12d98a74c8937a79e7b9e037e60b629d3f725242ec2025d218f2e5de"
+    },
+    {
+      "path": "zh/index.html",
+      "sha256": "ef736a54c96c1bd4e36613d5e195519d890ed3a4cc51d0b7919bbc4fa517f279"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-10-26",
+  "recorded_at": "2026-10-25",
+  "classification": "PUBLIC",
+  "status": "DATED_REFERENCE_EVIDENCE",
+  "source": "https://github.com/oromaskevic23-cmd/IMPERIAL-Core-Public/blob/a0dfa841c28f4e79bfb1c4a9356452157cbe523e/docs/EVIDENCE.md",
+  "repository": "https://github.com/oromaskevic23-cmd/CONSTRUCTOR-AI",
+  "commit": "23d25fa41287001c3529dad23571e67c04ddb74a",
+  "ci": {
+    "status": "RECORDED_PASS",
+    "tests": 68,
+    "url": "https://github.com/oromaskevic23-cmd/CONSTRUCTOR-AI/actions/runs/40131861437/job/120985060759",
+    "limits": "Recorded checkpoint; mocked model calls; not rerun during this website update."
+  },
+  "live_inference": "NOT_VERIFIED",
+  "autonomous_crm": {
+    "generation": "NOT_VERIFIED",
+    "build": "NOT_VERIFIED",
+    "tests": "NOT_VERIFIED",
+    "persistence": "NOT_VERIFIED",
+    "model_driven_debug": "NOT_VERIFIED",
+    "independent_qa": "NOT_VERIFIED",
+    "delivery": "NOT_VERIFIED"
+  },
+  "founder": {
+    "name": "Alexander Romaskevich",
+    "alternate_names": [
+      "Александр Николаевич Ромаскевич",
+      "Олександр Ромаскевич"
+    ],
+    "signature": "RomaskevicH",
+    "role": "Founder • Owner • CEO • Chief Systems Architect",
+    "ecosystem": "IMPERIAL Core",
+    "attribution_basis": "Owner's official first-party declaration; not authorship of every source file.",
+    "profile": "https://github.com/oromaskevic23-cmd"
+  }
+}
