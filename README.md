@@ -10,7 +10,7 @@ Architect / Final Architectural Decision Authority · Ukraine
 
 ## Start here
 
-- [Two multilingual websites and GitHub Pages release guide](websites/README.md) — 20 static pages across 10 languages; publication status is recorded separately.
+- [Two multilingual websites and GitHub Pages release guide](websites/README.md) — two published GitHub Pages sites, 20 pages across 10 languages; live verification and indexing status are recorded separately.
 
 - [Live GitHub Founder Profile](https://github.com/oromaskevic23-cmd) · [versioned Enterprise README](profile/README.md) · [multilingual identity](docs/FOUNDER_IDENTITY.md).
 - [Public technology portfolio](docs/PORTFOLIO.md) and [verified engineering milestones](docs/EVIDENCE.md).

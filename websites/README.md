@@ -1,13 +1,13 @@
 # Two official multilingual websites
 
-Release prepared on **26 October 2026 (Europe/Kyiv)** for GitHub Pages, with no paid services.
+Release published on **26 October 2026 (Europe/Kyiv)** for GitHub Pages, with no paid services.
 
-| Site | Prepared public address | Repository / publication branch |
+| Site | Public address | Repository / publication branch |
 |---|---|---|
 | Alexander Romaskevich — founder | https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ | `oromaskevic23-cmd/oromaskevic23-cmd` / `gh-pages` |
 | IMPERIAL Core — ecosystem | https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ | `oromaskevic23-cmd/IMPERIAL-Core-Public` / `gh-pages` |
 
-These are free GitHub Pages addresses on one `github.io` subdomain, with a separate project path for each site. They are not purchased custom domains. A prepared branch does not mean that Pages is enabled or that Google has indexed a URL. See [release status](REPORT.md) and [evidence](evidence/search-console.json).
+Both sites are published on free GitHub Pages addresses, using one `github.io` subdomain with a separate project path for each site. Live HTML/assets were verified against SHA-256 release manifests. Google indexing is not verified. See [release status](REPORT.md), [live byte evidence](evidence/live-verification.json) and [Search Console status](evidence/search-console.json).
 
 Both sites have complete **English, Ukrainian, Russian, German, French, Spanish, Portuguese, Japanese, Chinese and Arabic** versions. English is at the site root; the other versions use `/uk/`, `/ru/`, `/de/`, `/fr/`, `/es/`, `/pt/`, `/ja/`, `/zh/`, `/ar/`. Arabic uses right-to-left layout. Language links work without JavaScript. The translations have not received independent native-speaker editorial review.
 
@@ -23,9 +23,9 @@ python3 tools/verify_public_docs.py
 
 `source/content.json` holds all copy and both canonical base URLs. `assets/` holds shared styles, a small menu enhancement and the original owner-published portrait. `founder/dist/` and `ecosystem/dist/` contain only public static files. The generator handles the GitHub repository prefix in navigation, assets, canonical URLs, JSON-LD and sitemaps. Each release has a SHA-256 publication manifest beside its `dist` directory.
 
-## Enable the free addresses
+## Publication configuration and future recovery
 
-Once the reviewed `gh-pages` branches exist, the repository owner can select **Settings → Pages → Build and deployment → Deploy from a branch → gh-pages → /(root) → Save** in each repository. Leave the custom-domain field empty; GitHub supplies the free address. Keep HTTPS enforced when available. No DNS purchase is needed.
+Both repositories have successful `pages build and deployment` runs. For recovery or future setup, the repository owner can select **Settings → Pages → Build and deployment → Deploy from a branch → gh-pages → /(root) → Save** in each repository. Leave the custom-domain field empty; GitHub supplies the free address. Keep HTTPS enforced when available. No DNS purchase is needed.
 
 - Founder Pages settings: https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/settings/pages
 - Ecosystem Pages settings: https://github.com/oromaskevic23-cmd/IMPERIAL-Core-Public/settings/pages

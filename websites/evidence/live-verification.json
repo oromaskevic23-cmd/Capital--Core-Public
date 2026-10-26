@@ -1,0 +1,321 @@
+{
+  "observed_at": "2026-10-26T06:44:35.460640+00:00",
+  "published_bytes_verified": true,
+  "crawlable": true,
+  "google_indexed": "NOT_VERIFIED",
+  "files": [
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ar/",
+      "expected_sha256": "6938341501de1bbddaefc72c74f49f26fd6eb50369315e0fc09f68918966f6b2",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ar/",
+      "actual_sha256": "6938341501de1bbddaefc72c74f49f26fd6eb50369315e0fc09f68918966f6b2",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/alexander-romaskevich-portrait.jpeg",
+      "expected_sha256": "7758dacaa2b08ee3b305489297714d23ec4c6f819b546ea7c8e79e4fd54e7b07",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/alexander-romaskevich-portrait.jpeg",
+      "actual_sha256": "7758dacaa2b08ee3b305489297714d23ec4c6f819b546ea7c8e79e4fd54e7b07",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/earth-equirectangular.jpg",
+      "expected_sha256": "6943c4df85aa8444b837be8b3446c339af04e9631866ec4a2e0ce43f00290254",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/earth-equirectangular.jpg",
+      "actual_sha256": "6943c4df85aa8444b837be8b3446c339af04e9631866ec4a2e0ce43f00290254",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/favicon.svg",
+      "expected_sha256": "31ac346fbcd045a108f8bc4b23d283eca7f879990c7335310c1f64f6df80d1f9",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/favicon.svg",
+      "actual_sha256": "31ac346fbcd045a108f8bc4b23d283eca7f879990c7335310c1f64f6df80d1f9",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/site.css",
+      "expected_sha256": "c71ca27d492fa119596de0a5543a4c602d6a31a1b03a39d1fc8839ddbc3da922",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/site.css",
+      "actual_sha256": "c71ca27d492fa119596de0a5543a4c602d6a31a1b03a39d1fc8839ddbc3da922",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/site.js",
+      "expected_sha256": "0d8f215bbc3a8cdbb58985133a1a29a7331fc68ef5a95aadbd778f0566251204",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/site.js",
+      "actual_sha256": "0d8f215bbc3a8cdbb58985133a1a29a7331fc68ef5a95aadbd778f0566251204",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/de/",
+      "expected_sha256": "917d97520d8566b48c4b1f07b12b6b3a0761477490f44efb097d7dee37e9524a",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/de/",
+      "actual_sha256": "917d97520d8566b48c4b1f07b12b6b3a0761477490f44efb097d7dee37e9524a",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/es/",
+      "expected_sha256": "970e88b91942655332a911949689b4e5430ac3105949f16b848f9dcf29fa98f1",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/es/",
+      "actual_sha256": "970e88b91942655332a911949689b4e5430ac3105949f16b848f9dcf29fa98f1",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/fr/",
+      "expected_sha256": "b2095d43232faf5740eeaf84030d4dd9ac57830e94674b15b915294ab5f055fb",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/fr/",
+      "actual_sha256": "b2095d43232faf5740eeaf84030d4dd9ac57830e94674b15b915294ab5f055fb",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/",
+      "expected_sha256": "0fbbec11f78bbef51d0ee3b87d1dbaf227ed71374b710c9938f09a92a996db76",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/",
+      "actual_sha256": "0fbbec11f78bbef51d0ee3b87d1dbaf227ed71374b710c9938f09a92a996db76",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ja/",
+      "expected_sha256": "9d7ce8f4e24a1b2d74321e562f14dacffbf448c5fdefd3c3fb7288da2d849479",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ja/",
+      "actual_sha256": "9d7ce8f4e24a1b2d74321e562f14dacffbf448c5fdefd3c3fb7288da2d849479",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/pt/",
+      "expected_sha256": "d61b5f17adb9f0cc9025017d1d593406a3e476c8f2757c89811fd5bd8bba33cd",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/pt/",
+      "actual_sha256": "d61b5f17adb9f0cc9025017d1d593406a3e476c8f2757c89811fd5bd8bba33cd",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/robots.txt",
+      "expected_sha256": "930887110ef11fb05c4797fbaaf64ea0e0ed46bc000bac9d9c9435a28053ccb4",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/robots.txt",
+      "actual_sha256": "930887110ef11fb05c4797fbaaf64ea0e0ed46bc000bac9d9c9435a28053ccb4",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ru/",
+      "expected_sha256": "3931bd7cd6031a2dd65808f26123954a100bce6dac41699685b1eacd1d236441",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ru/",
+      "actual_sha256": "3931bd7cd6031a2dd65808f26123954a100bce6dac41699685b1eacd1d236441",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/sitemap.xml",
+      "expected_sha256": "db80eaaf58923988b1913a26000a549522f04b3734bd2f2dc28180ed7af082cd",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/sitemap.xml",
+      "actual_sha256": "db80eaaf58923988b1913a26000a549522f04b3734bd2f2dc28180ed7af082cd",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/uk/",
+      "expected_sha256": "3b77891294d3c3f939daf3c8157f185a7ff1303b3ab6ddf2ee68b11b6091e129",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/uk/",
+      "actual_sha256": "3b77891294d3c3f939daf3c8157f185a7ff1303b3ab6ddf2ee68b11b6091e129",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/zh/",
+      "expected_sha256": "27f36a8bf2e2c0a35fc882183d6cf19db3477fc0d935f329ecd27a145b7728e4",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/zh/",
+      "actual_sha256": "27f36a8bf2e2c0a35fc882183d6cf19db3477fc0d935f329ecd27a145b7728e4",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/",
+      "expected_sha256": "92a3e04a8e7edb28130807c42f005a111eb2bdf7e1a42fabaf4da3a236ac0696",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/",
+      "actual_sha256": "92a3e04a8e7edb28130807c42f005a111eb2bdf7e1a42fabaf4da3a236ac0696",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg",
+      "expected_sha256": "7758dacaa2b08ee3b305489297714d23ec4c6f819b546ea7c8e79e4fd54e7b07",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg",
+      "actual_sha256": "7758dacaa2b08ee3b305489297714d23ec4c6f819b546ea7c8e79e4fd54e7b07",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/earth-equirectangular.jpg",
+      "expected_sha256": "6943c4df85aa8444b837be8b3446c339af04e9631866ec4a2e0ce43f00290254",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/earth-equirectangular.jpg",
+      "actual_sha256": "6943c4df85aa8444b837be8b3446c339af04e9631866ec4a2e0ce43f00290254",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/favicon.svg",
+      "expected_sha256": "31ac346fbcd045a108f8bc4b23d283eca7f879990c7335310c1f64f6df80d1f9",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/favicon.svg",
+      "actual_sha256": "31ac346fbcd045a108f8bc4b23d283eca7f879990c7335310c1f64f6df80d1f9",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/site.css",
+      "expected_sha256": "c71ca27d492fa119596de0a5543a4c602d6a31a1b03a39d1fc8839ddbc3da922",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/site.css",
+      "actual_sha256": "c71ca27d492fa119596de0a5543a4c602d6a31a1b03a39d1fc8839ddbc3da922",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/site.js",
+      "expected_sha256": "0d8f215bbc3a8cdbb58985133a1a29a7331fc68ef5a95aadbd778f0566251204",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/site.js",
+      "actual_sha256": "0d8f215bbc3a8cdbb58985133a1a29a7331fc68ef5a95aadbd778f0566251204",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/",
+      "expected_sha256": "6c024544c13cc3e573853a7e871a69fbf3f2595b57607d6961da1b006d9c172c",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/",
+      "actual_sha256": "6c024544c13cc3e573853a7e871a69fbf3f2595b57607d6961da1b006d9c172c",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/",
+      "expected_sha256": "67851bf073b72c1b2fde5b4ce3eee4a52f9991520da4e696f459c1a132fb9a3a",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/",
+      "actual_sha256": "67851bf073b72c1b2fde5b4ce3eee4a52f9991520da4e696f459c1a132fb9a3a",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/",
+      "expected_sha256": "1c478f152d46f2320879dd68975724ffe2a639a3d698445108b0be31b5dc0608",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/",
+      "actual_sha256": "1c478f152d46f2320879dd68975724ffe2a639a3d698445108b0be31b5dc0608",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/",
+      "expected_sha256": "36a302a33c45f33d9b4d851b94974410ff24cb555bd3e3472ffbac1e99805a09",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/",
+      "actual_sha256": "36a302a33c45f33d9b4d851b94974410ff24cb555bd3e3472ffbac1e99805a09",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/",
+      "expected_sha256": "fee6deb1a06c56d7fa052614c69d0e582d7a662923be3785af8d6009a564ef11",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/",
+      "actual_sha256": "fee6deb1a06c56d7fa052614c69d0e582d7a662923be3785af8d6009a564ef11",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/",
+      "expected_sha256": "cd95c81c4fc384750399400ee244c4cade61bf5f4587ab79cd05df255633301d",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/",
+      "actual_sha256": "cd95c81c4fc384750399400ee244c4cade61bf5f4587ab79cd05df255633301d",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/robots.txt",
+      "expected_sha256": "eb00390d73fd38df8eb2ea4ee9967c80811f56dcf5b2364f473d93b12842e0e6",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/robots.txt",
+      "actual_sha256": "eb00390d73fd38df8eb2ea4ee9967c80811f56dcf5b2364f473d93b12842e0e6",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/",
+      "expected_sha256": "fa70c094f299c46dd4645cb2647880b8fc2da0682d3140e6e6bcc8557fd0f8e0",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/",
+      "actual_sha256": "fa70c094f299c46dd4645cb2647880b8fc2da0682d3140e6e6bcc8557fd0f8e0",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/sitemap.xml",
+      "expected_sha256": "215d7b471887c0bd062703574810ae3ddf1d23713f8362d853c224e466d35bac",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/sitemap.xml",
+      "actual_sha256": "215d7b471887c0bd062703574810ae3ddf1d23713f8362d853c224e466d35bac",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/",
+      "expected_sha256": "a877e5827e7f9dd3dd9549f90bff389dab921fdcd734c8543c908a9086635099",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/",
+      "actual_sha256": "a877e5827e7f9dd3dd9549f90bff389dab921fdcd734c8543c908a9086635099",
+      "x_robots_tag": "",
+      "matches": true
+    },
+    {
+      "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/",
+      "expected_sha256": "7f19eae2d221ab8fcab051917f0ee4100b9ab97768cb0c8deff5c74289c440e3",
+      "http_status": 200,
+      "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/",
+      "actual_sha256": "7f19eae2d221ab8fcab051917f0ee4100b9ab97768cb0c8deff5c74289c440e3",
+      "x_robots_tag": "",
+      "matches": true
+    }
+  ],
+  "root_robots": [
+    {
+      "url": "https://oromaskevic23-cmd.github.io/robots.txt",
+      "permits_googlebot": true,
+      "http_status": 404
+    }
+  ]
+}

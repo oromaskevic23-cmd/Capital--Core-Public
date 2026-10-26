@@ -1,5 +1,6 @@
 {
-  "status": "DRAFTED",
+  "artifact_status": "BUILT",
+  "publication_evidence": "../evidence/live-verification.json",
   "hosting": "GitHub Pages",
   "canonical_origin": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd",
   "files": [
@@ -60,8 +61,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "0fbbec11f78bbef51d0ee3b87d1dbaf227ed71374b710c9938f09a92a996db76",
-      "bytes": 17362
+      "sha256": "518bc5c8489d479c231485c6534d8d7af82f9f640c0ee63ec47f2eb44221a806",
+      "bytes": 17334
     },
     {
       "path": "ja/index.html",
@@ -80,8 +81,8 @@
     },
     {
       "path": "ru/index.html",
-      "sha256": "3931bd7cd6031a2dd65808f26123954a100bce6dac41699685b1eacd1d236441",
-      "bytes": 21895
+      "sha256": "67f8d151b4a4c8f70f38988b83ec182ad9292de2d3f18998d90ed9e3ff835a26",
+      "bytes": 22147
     },
     {
       "path": "sitemap.xml",

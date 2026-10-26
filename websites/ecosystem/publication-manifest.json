@@ -1,5 +1,6 @@
 {
-  "status": "DRAFTED",
+  "artifact_status": "BUILT",
+  "publication_evidence": "../evidence/live-verification.json",
   "hosting": "GitHub Pages",
   "canonical_origin": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public",
   "files": [
@@ -80,8 +81,8 @@
     },
     {
       "path": "ru/index.html",
-      "sha256": "fa70c094f299c46dd4645cb2647880b8fc2da0682d3140e6e6bcc8557fd0f8e0",
-      "bytes": 21086
+      "sha256": "fd1c2468c4c386b7bd50ae0229e216090850328aede8e82bb980ab1a6485c0fe",
+      "bytes": 21149
     },
     {
       "path": "sitemap.xml",

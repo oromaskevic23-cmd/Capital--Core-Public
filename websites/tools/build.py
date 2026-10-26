@@ -77,7 +77,7 @@ def body(kind,lang):
 
 def page(kind,lang):
     t=T[lang];base=FOUNDER if kind=='founder' else COMPANY;url=base+path(lang)
-    title=f"{t['name']} — {t['profile']} | IMPERIAL Core" if kind=='founder' else 'IMPERIAL Core — '+t['companyHeadline']+' '+t['companyAccent']
+    title=("Alexander Romaskevich — Founder of IMPERIAL Core" if lang=='en' else f"{t['name']} — {t['profile']} | IMPERIAL Core") if kind=='founder' else 'IMPERIAL Core — '+t['companyHeadline']+' '+t['companyAccent']
     desc=t['intro'] if kind=='founder' else t['companyIntro']
     alternates='\n'.join(f'<link rel="alternate" hreflang="{l}" href="{base+path(l)}">' for l in LANGS)+f'\n<link rel="alternate" hreflang="x-default" href="{base}/">'
     js=json.dumps(graph(kind,lang,url,title,desc),ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
@@ -122,6 +122,6 @@ def main():
         (out/'404.html').write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Page not found</title></head><body><main><h1>Page not found</h1><a href="{base}/">Home</a></main></body></html>\n')
         (ROOT/kind/'.gitignore').write_text('.netlify/\n.openai/\n')
         records=[{'path':p.relative_to(out).as_posix(),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size} for p in sorted(out.rglob('*')) if p.is_file()]
-        (ROOT/kind/'publication-manifest.json').write_text(json.dumps({'status':'DRAFTED','hosting':'GitHub Pages','canonical_origin':base,'files':records},indent=2)+'\n')
+        (ROOT/kind/'publication-manifest.json').write_text(json.dumps({'artifact_status':'BUILT','publication_evidence':'../evidence/live-verification.json','hosting':'GitHub Pages','canonical_origin':base,'files':records},indent=2)+'\n')
         print(kind,len(LANGS),'localized pages;',sum(x['bytes'] for x in records),'bytes total')
 if __name__=='__main__':main()
