@@ -15,6 +15,8 @@ Architect / Final Architectural Decision Authority · Ukraine
 
 Both URLs are hosted on GitHub Pages, with 10 indexable language versions, sitemap files and per-language canonical/hreflang metadata. Search Console ownership and actual Google indexing must be verified separately.
 
+**[Google Founder Recognition — SEO audit, exact Search Console URLs and ownership status](docs/GOOGLE_FOUNDER_RECOGNITION_20261026.md)** · 26 October 2026. Indexing and GSC verification are not yet independently confirmed.
+
 ## Start here
 
 - [Live GitHub Founder Profile](https://github.com/oromaskevic23-cmd) · [versioned Enterprise README](profile/README.md) · [multilingual identity](docs/FOUNDER_IDENTITY.md).
