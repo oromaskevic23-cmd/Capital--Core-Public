@@ -1,7 +1,7 @@
 # Founder Enterprise Identity — Sprint 001 Report
 
 **Mission:** IC-ASTRA-FOUNDER-ENTERPRISE-PROFILE-20261025-001  
-**Checkpoint:** 25 October 2026 · Europe/Kyiv
+**Checkpoint:** 25 October 2026
 
 ## DONE
 
