@@ -1,0 +1,102 @@
+{
+  "status": "DRAFTED",
+  "hosting": "GitHub Pages",
+  "canonical_origin": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "404.html",
+      "sha256": "2e5455c4000f72de412beca1abac18fb5c4e08143f2ff41d9f71022ca51e5f9d",
+      "bytes": 333
+    },
+    {
+      "path": "ar/index.html",
+      "sha256": "92a3e04a8e7edb28130807c42f005a111eb2bdf7e1a42fabaf4da3a236ac0696",
+      "bytes": 19337
+    },
+    {
+      "path": "assets/alexander-romaskevich-portrait.jpeg",
+      "sha256": "7758dacaa2b08ee3b305489297714d23ec4c6f819b546ea7c8e79e4fd54e7b07",
+      "bytes": 360546
+    },
+    {
+      "path": "assets/earth-equirectangular.jpg",
+      "sha256": "6943c4df85aa8444b837be8b3446c339af04e9631866ec4a2e0ce43f00290254",
+      "bytes": 162035
+    },
+    {
+      "path": "assets/favicon.svg",
+      "sha256": "31ac346fbcd045a108f8bc4b23d283eca7f879990c7335310c1f64f6df80d1f9",
+      "bytes": 282
+    },
+    {
+      "path": "assets/site.css",
+      "sha256": "c71ca27d492fa119596de0a5543a4c602d6a31a1b03a39d1fc8839ddbc3da922",
+      "bytes": 15490
+    },
+    {
+      "path": "assets/site.js",
+      "sha256": "0d8f215bbc3a8cdbb58985133a1a29a7331fc68ef5a95aadbd778f0566251204",
+      "bytes": 401
+    },
+    {
+      "path": "de/index.html",
+      "sha256": "6c024544c13cc3e573853a7e871a69fbf3f2595b57607d6961da1b006d9c172c",
+      "bytes": 17407
+    },
+    {
+      "path": "es/index.html",
+      "sha256": "67851bf073b72c1b2fde5b4ce3eee4a52f9991520da4e696f459c1a132fb9a3a",
+      "bytes": 17299
+    },
+    {
+      "path": "fr/index.html",
+      "sha256": "1c478f152d46f2320879dd68975724ffe2a639a3d698445108b0be31b5dc0608",
+      "bytes": 17634
+    },
+    {
+      "path": "index.html",
+      "sha256": "36a302a33c45f33d9b4d851b94974410ff24cb555bd3e3472ffbac1e99805a09",
+      "bytes": 16870
+    },
+    {
+      "path": "ja/index.html",
+      "sha256": "fee6deb1a06c56d7fa052614c69d0e582d7a662923be3785af8d6009a564ef11",
+      "bytes": 18474
+    },
+    {
+      "path": "pt/index.html",
+      "sha256": "cd95c81c4fc384750399400ee244c4cade61bf5f4587ab79cd05df255633301d",
+      "bytes": 17262
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "eb00390d73fd38df8eb2ea4ee9967c80811f56dcf5b2364f473d93b12842e0e6",
+      "bytes": 101
+    },
+    {
+      "path": "ru/index.html",
+      "sha256": "fa70c094f299c46dd4645cb2647880b8fc2da0682d3140e6e6bcc8557fd0f8e0",
+      "bytes": 21086
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "215d7b471887c0bd062703574810ae3ddf1d23713f8362d853c224e466d35bac",
+      "bytes": 14851
+    },
+    {
+      "path": "uk/index.html",
+      "sha256": "a877e5827e7f9dd3dd9549f90bff389dab921fdcd734c8543c908a9086635099",
+      "bytes": 20602
+    },
+    {
+      "path": "zh/index.html",
+      "sha256": "7f19eae2d221ab8fcab051917f0ee4100b9ab97768cb0c8deff5c74289c440e3",
+      "bytes": 16287
+    }
+  ]
+}

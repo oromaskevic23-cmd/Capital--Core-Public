@@ -1,0 +1,152 @@
+{
+  "observed_at": "2026-10-26T05:58:20.768656+00:00",
+  "surface": "Chromium cloud browser, local static preview",
+  "viewport_method": "20 iframe browsing contexts, nominal width 320px, content clientWidth 305px with scrollbar",
+  "pages": [
+    {
+      "site": "founder",
+      "lang": "en",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "founder",
+      "lang": "uk",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "founder",
+      "lang": "ru",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "founder",
+      "lang": "de",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "founder",
+      "lang": "fr",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "founder",
+      "lang": "es",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "founder",
+      "lang": "pt",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "founder",
+      "lang": "ja",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "founder",
+      "lang": "zh",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "founder",
+      "lang": "ar",
+      "dir": "rtl",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "en",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "uk",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "ru",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "de",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "fr",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "es",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "pt",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "ja",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "zh",
+      "dir": "ltr",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    },
+    {
+      "site": "ecosystem",
+      "lang": "ar",
+      "dir": "rtl",
+      "clientWidth": 305,
+      "scrollWidth": 305
+    }
+  ],
+  "language_navigation": "Founder English menu to Russian URL verified",
+  "founder_portrait": "All 10 eager-loading portrait images complete, naturalWidth 1122",
+  "ecosystem_portrait": "Lazy loading; not asserted loaded in offscreen iframe contexts",
+  "visual_review": "Founder and ecosystem Russian desktop hero; founder RU/AR/JA mobile",
+  "limitations": "Not a Lighthouse performance score or an independent native-speaker translation review."
+}

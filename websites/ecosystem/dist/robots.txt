@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/sitemap.xml
