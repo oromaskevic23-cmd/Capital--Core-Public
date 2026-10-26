@@ -3,7 +3,7 @@ name: Public identity documentation
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, feat/global-founder-github-pages-20261026]
 
 permissions:
   contents: read
