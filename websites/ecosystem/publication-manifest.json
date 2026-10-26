@@ -16,8 +16,8 @@
     },
     {
       "path": "ar/index.html",
-      "sha256": "4b8d5e9a544cc62f56cb3a74a1078c2ea4e049f7fa56e45142701c5209485413",
-      "bytes": 20119
+      "sha256": "0a19437500cc134b44f2b86a7486099b62473a78dbbbb48a368e4558fe03d884",
+      "bytes": 20116
     },
     {
       "path": "assets/alexander-romaskevich-portrait.jpeg",
@@ -46,33 +46,33 @@
     },
     {
       "path": "de/index.html",
-      "sha256": "d693b1376d999b98b2bca299f5ffb337d52ed37623e57a6d257de437d1587bef",
-      "bytes": 18121
+      "sha256": "653288502c20cc3745860ebe74d4a5e50f5465229ea6a3bc305a420e87f45f9c",
+      "bytes": 18127
     },
     {
       "path": "es/index.html",
-      "sha256": "8fdd693e8c6165a544fceef0a3aac1549a5a4a71950f83dc4229e07eb408cbf3",
-      "bytes": 18024
+      "sha256": "5f562f463d83cc0513fc86c7c2e7745e8b16ded4160c7ef42d9924b0b88352f2",
+      "bytes": 18030
     },
     {
       "path": "fr/index.html",
-      "sha256": "1d84fb4d2b83733ead19444b78dc046399b104057be70fd7374aeaa67c30fc27",
-      "bytes": 18372
+      "sha256": "b206e5b3950c655c55387b0ff3eb996cf5f496845c2b9b03f28c2f9f08e8d241",
+      "bytes": 18378
     },
     {
       "path": "index.html",
-      "sha256": "19dcc395ad5fcf971e6f65d7386e7dd129ebd9a1ada5945eec0cf284932ff395",
-      "bytes": 17601
+      "sha256": "e40ff2d6275f860fda8b3a9f87273f1ea12888c25f7176c9bc579b9ed5904b57",
+      "bytes": 17607
     },
     {
       "path": "ja/index.html",
-      "sha256": "84a975ccb7f761d2aa5e648a34af615855d0171a21ed2ae2e348d38d2ae1eebd",
-      "bytes": 19227
+      "sha256": "4efbcf7abfceeeb1f61e060b4155115df43097a06b5231629a0d15776e46cbab",
+      "bytes": 19225
     },
     {
       "path": "pt/index.html",
-      "sha256": "fae512503dbf839d7307badf7c0537b77cc454008d1f84032cfe75743bbaeaf8",
-      "bytes": 17985
+      "sha256": "9fe339bd53ff62d806a21f99f8a9a3d18f5ba9f95e511a907029e163740c8efe",
+      "bytes": 17990
     },
     {
       "path": "robots.txt",
@@ -81,8 +81,8 @@
     },
     {
       "path": "ru/index.html",
-      "sha256": "78178014f0316c7a779be252df9052fd234f4ba922253f5e891e98a760ae930b",
-      "bytes": 22066
+      "sha256": "6bae3831e27d9a37f41ca6f9a7605d562f036656894086bf71afa0336bad3f2c",
+      "bytes": 22065
     },
     {
       "path": "sitemap.xml",
@@ -91,13 +91,13 @@
     },
     {
       "path": "uk/index.html",
-      "sha256": "5c27fa96be200cfd9d95fa75099fcdd7b075de579cfa7a393c5a2bb566e19f71",
-      "bytes": 21492
+      "sha256": "87912e0281e143d4c5d84dccaf85e69eaf316706fe885dd65ac39126b551bb6d",
+      "bytes": 21491
     },
     {
       "path": "zh/index.html",
-      "sha256": "64984993f3c551f343e7365bc2e2a7588c1b7d37be049ed9d74569889f48a969",
-      "bytes": 16952
+      "sha256": "0b7404aa8ec7943cf387aae01d546603508940c63bf32d84d6339bc3d38bc97c",
+      "bytes": 16956
     }
   ]
 }
