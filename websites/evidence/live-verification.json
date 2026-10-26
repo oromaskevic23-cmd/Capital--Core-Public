@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-26T06:51:09.688525+00:00",
+  "observed_at": "2026-10-26T07:11:38.523909+00:00",
   "published_bytes_verified": true,
   "crawlable": true,
   "google_indexed": "NOT_VERIFIED",
@@ -42,10 +42,10 @@
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/site.css",
-      "expected_sha256": "c71ca27d492fa119596de0a5543a4c602d6a31a1b03a39d1fc8839ddbc3da922",
+      "expected_sha256": "b7a1034067ced2bff754e6fe59f56cec63621a9d8ca2531dbaf18bd77c1c5379",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/site.css",
-      "actual_sha256": "c71ca27d492fa119596de0a5543a4c602d6a31a1b03a39d1fc8839ddbc3da922",
+      "actual_sha256": "b7a1034067ced2bff754e6fe59f56cec63621a9d8ca2531dbaf18bd77c1c5379",
       "x_robots_tag": "",
       "matches": true
     },
@@ -159,10 +159,10 @@
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/",
-      "expected_sha256": "92a3e04a8e7edb28130807c42f005a111eb2bdf7e1a42fabaf4da3a236ac0696",
+      "expected_sha256": "4b8d5e9a544cc62f56cb3a74a1078c2ea4e049f7fa56e45142701c5209485413",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/",
-      "actual_sha256": "92a3e04a8e7edb28130807c42f005a111eb2bdf7e1a42fabaf4da3a236ac0696",
+      "actual_sha256": "4b8d5e9a544cc62f56cb3a74a1078c2ea4e049f7fa56e45142701c5209485413",
       "x_robots_tag": "",
       "matches": true
     },
@@ -195,10 +195,10 @@
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/site.css",
-      "expected_sha256": "c71ca27d492fa119596de0a5543a4c602d6a31a1b03a39d1fc8839ddbc3da922",
+      "expected_sha256": "b7a1034067ced2bff754e6fe59f56cec63621a9d8ca2531dbaf18bd77c1c5379",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/site.css",
-      "actual_sha256": "c71ca27d492fa119596de0a5543a4c602d6a31a1b03a39d1fc8839ddbc3da922",
+      "actual_sha256": "b7a1034067ced2bff754e6fe59f56cec63621a9d8ca2531dbaf18bd77c1c5379",
       "x_robots_tag": "",
       "matches": true
     },
@@ -213,55 +213,55 @@
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/",
-      "expected_sha256": "6c024544c13cc3e573853a7e871a69fbf3f2595b57607d6961da1b006d9c172c",
+      "expected_sha256": "d693b1376d999b98b2bca299f5ffb337d52ed37623e57a6d257de437d1587bef",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/",
-      "actual_sha256": "6c024544c13cc3e573853a7e871a69fbf3f2595b57607d6961da1b006d9c172c",
+      "actual_sha256": "d693b1376d999b98b2bca299f5ffb337d52ed37623e57a6d257de437d1587bef",
       "x_robots_tag": "",
       "matches": true
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/",
-      "expected_sha256": "67851bf073b72c1b2fde5b4ce3eee4a52f9991520da4e696f459c1a132fb9a3a",
+      "expected_sha256": "8fdd693e8c6165a544fceef0a3aac1549a5a4a71950f83dc4229e07eb408cbf3",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/",
-      "actual_sha256": "67851bf073b72c1b2fde5b4ce3eee4a52f9991520da4e696f459c1a132fb9a3a",
+      "actual_sha256": "8fdd693e8c6165a544fceef0a3aac1549a5a4a71950f83dc4229e07eb408cbf3",
       "x_robots_tag": "",
       "matches": true
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/",
-      "expected_sha256": "1c478f152d46f2320879dd68975724ffe2a639a3d698445108b0be31b5dc0608",
+      "expected_sha256": "1d84fb4d2b83733ead19444b78dc046399b104057be70fd7374aeaa67c30fc27",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/",
-      "actual_sha256": "1c478f152d46f2320879dd68975724ffe2a639a3d698445108b0be31b5dc0608",
+      "actual_sha256": "1d84fb4d2b83733ead19444b78dc046399b104057be70fd7374aeaa67c30fc27",
       "x_robots_tag": "",
       "matches": true
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/",
-      "expected_sha256": "36a302a33c45f33d9b4d851b94974410ff24cb555bd3e3472ffbac1e99805a09",
+      "expected_sha256": "19dcc395ad5fcf971e6f65d7386e7dd129ebd9a1ada5945eec0cf284932ff395",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/",
-      "actual_sha256": "36a302a33c45f33d9b4d851b94974410ff24cb555bd3e3472ffbac1e99805a09",
+      "actual_sha256": "19dcc395ad5fcf971e6f65d7386e7dd129ebd9a1ada5945eec0cf284932ff395",
       "x_robots_tag": "",
       "matches": true
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/",
-      "expected_sha256": "fee6deb1a06c56d7fa052614c69d0e582d7a662923be3785af8d6009a564ef11",
+      "expected_sha256": "84a975ccb7f761d2aa5e648a34af615855d0171a21ed2ae2e348d38d2ae1eebd",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/",
-      "actual_sha256": "fee6deb1a06c56d7fa052614c69d0e582d7a662923be3785af8d6009a564ef11",
+      "actual_sha256": "84a975ccb7f761d2aa5e648a34af615855d0171a21ed2ae2e348d38d2ae1eebd",
       "x_robots_tag": "",
       "matches": true
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/",
-      "expected_sha256": "cd95c81c4fc384750399400ee244c4cade61bf5f4587ab79cd05df255633301d",
+      "expected_sha256": "fae512503dbf839d7307badf7c0537b77cc454008d1f84032cfe75743bbaeaf8",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/",
-      "actual_sha256": "cd95c81c4fc384750399400ee244c4cade61bf5f4587ab79cd05df255633301d",
+      "actual_sha256": "fae512503dbf839d7307badf7c0537b77cc454008d1f84032cfe75743bbaeaf8",
       "x_robots_tag": "",
       "matches": true
     },
@@ -276,10 +276,10 @@
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/",
-      "expected_sha256": "fd1c2468c4c386b7bd50ae0229e216090850328aede8e82bb980ab1a6485c0fe",
+      "expected_sha256": "78178014f0316c7a779be252df9052fd234f4ba922253f5e891e98a760ae930b",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/",
-      "actual_sha256": "fd1c2468c4c386b7bd50ae0229e216090850328aede8e82bb980ab1a6485c0fe",
+      "actual_sha256": "78178014f0316c7a779be252df9052fd234f4ba922253f5e891e98a760ae930b",
       "x_robots_tag": "",
       "matches": true
     },
@@ -294,19 +294,19 @@
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/",
-      "expected_sha256": "a877e5827e7f9dd3dd9549f90bff389dab921fdcd734c8543c908a9086635099",
+      "expected_sha256": "5c27fa96be200cfd9d95fa75099fcdd7b075de579cfa7a393c5a2bb566e19f71",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/",
-      "actual_sha256": "a877e5827e7f9dd3dd9549f90bff389dab921fdcd734c8543c908a9086635099",
+      "actual_sha256": "5c27fa96be200cfd9d95fa75099fcdd7b075de579cfa7a393c5a2bb566e19f71",
       "x_robots_tag": "",
       "matches": true
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/",
-      "expected_sha256": "7f19eae2d221ab8fcab051917f0ee4100b9ab97768cb0c8deff5c74289c440e3",
+      "expected_sha256": "64984993f3c551f343e7365bc2e2a7588c1b7d37be049ed9d74569889f48a969",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/",
-      "actual_sha256": "7f19eae2d221ab8fcab051917f0ee4100b9ab97768cb0c8deff5c74289c440e3",
+      "actual_sha256": "64984993f3c551f343e7365bc2e2a7588c1b7d37be049ed9d74569889f48a969",
       "x_robots_tag": "",
       "matches": true
     }

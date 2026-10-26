@@ -2,16 +2,23 @@
   "date": "2026-10-26",
   "founder": {
     "commit": "e25b0d67da98c3afc22c74e58339dcd28519ac51",
-    "workflow": "https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/actions/runs/40284100624"
+    "workflow": "https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/actions/runs/40284100624",
+    "deployment": "success"
   },
   "ecosystem": {
     "commit": "5d18950bb63fc1c9f3ccec225988be1f241eee4b",
-    "workflow": "https://github.com/oromaskevic23-cmd/IMPERIAL-Core-Public/actions/runs/40284096270"
+    "workflow": "https://github.com/oromaskevic23-cmd/IMPERIAL-Core-Public/actions/runs/40284096270",
+    "deployment": "success"
   },
   "branch": "gh-pages",
   "source_pull_requests": [
     5,
     2
   ],
-  "google_indexed": "NOT_VERIFIED"
+  "google_indexed": "NOT_VERIFIED",
+  "source_commit": "dbc95fe9c467a0bd20712607efaedf121bee0a73",
+  "profile_source_commit": "960a69028820fdc388c110302eac8c09fa2c18fa",
+  "source_ci": "https://github.com/oromaskevic23-cmd/IMPERIAL-Core-Public/actions/runs/40284249922",
+  "profile_ci": "https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/actions/runs/40284255408",
+  "ci_result": "success"
 }
