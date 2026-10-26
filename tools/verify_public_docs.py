@@ -49,7 +49,7 @@ def main():
     profile=(ROOT/'profile/README.md').read_text()
     for heading in REQUIRED_SECTIONS:
         if '\n## '+heading+'\n' not in profile: errors.append('Missing profile section: '+heading)
-    if 'Chief Systems Architect' in profile: errors.append('Outdated founder role')
+    if 'Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core' not in profile: errors.append('Missing approved Sprint 004 founder role')
     evidence=json.loads((ROOT/'evidence/milestones.json').read_text())
     for item in evidence['milestones']:
         if not re.fullmatch(r'[0-9a-f]{40}',item['commit']): errors.append('Invalid commit')

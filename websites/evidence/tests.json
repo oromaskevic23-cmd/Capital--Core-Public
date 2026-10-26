@@ -1,0 +1,38 @@
+{
+  "observed_at": "2026-10-26T06:50:08.475277+00:00",
+  "deterministic_build": true,
+  "commands": [
+    {
+      "command": "python websites/tools/build.py",
+      "exit_code": 0,
+      "output": "founder 10 localized pages; 742255 bytes total\necosystem 10 localized pages; 736360 bytes total\n"
+    },
+    {
+      "command": "python websites/tools/verify.py",
+      "exit_code": 0,
+      "output": "test_01_metadata_and_semantic_html (__main__.ReleaseGate.test_01_metadata_and_semantic_html) ... ok\ntest_02_reciprocal_hreflang (__main__.ReleaseGate.test_02_reciprocal_hreflang) ... ok\ntest_03_entity_graph_and_truth_boundary (__main__.ReleaseGate.test_03_entity_graph_and_truth_boundary) ... ok\ntest_04_all_internal_links_assets_and_fragments (__main__.ReleaseGate.test_04_all_internal_links_assets_and_fragments) ... ok\ntest_05_sitemap_matches_every_page (__main__.ReleaseGate.test_05_sitemap_matches_every_page) ... ok\ntest_06_portrait_manifest_and_publish_allowlist (__main__.ReleaseGate.test_06_portrait_manifest_and_publish_allowlist) ... ok\ntest_07_complete_translations_and_no_secret_patterns (__main__.ReleaseGate.test_07_complete_translations_and_no_secret_patterns) ... ok\ntest_08_no_tracking_or_javascript_only_content (__main__.ReleaseGate.test_08_no_tracking_or_javascript_only_content) ... ok\ntest_09_full_name_search_identity (__main__.ReleaseGate.test_09_full_name_search_identity) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.454s\n\nOK\n"
+    },
+    {
+      "command": "python tools/verify_public_docs.py",
+      "exit_code": 0,
+      "output": "PASS: 19 declared files; local links, nine profile sections, scoped credential patterns and evidence-record consistency\nLIMIT: offline checks do not verify remote links, runtime behavior, deployment or full secret history.\n"
+    },
+    {
+      "command": "python <founder-profile-repository>/tools/verify_profile.py",
+      "exit_code": 0,
+      "output": "PASS: Founder title and identity\nPASS: All nine ordered sections\nPASS: Public technology portfolio\nPASS: Founder final authority\nPASS: Architecture governance\nPASS: Engineering proof\nPASS: Clear reference versus production limits\nPASS: Business inquiry route\nPASS: Preserved upstream attribution\nPASS: Free of template filler\nPASS: At least ten useful destination links\nPASS: Links are absolute HTTPS or local anchor\nPASS: Exact official Pages URLs or GitHub owner namespace\nPASS: No sign-in-only direct issue form\nPASS: No obsolete Val Town website in published README\nPASS: All four milestone PR and CI references present\nPASS: No common credential token patterns\nProfile integrity: 17/17 PASS\n"
+    },
+    {
+      "command": "node --check websites/assets/site.js",
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": "python -m compileall -q websites/tools",
+      "exit_code": 0,
+      "output": ""
+    }
+  ],
+  "final_design_validation_at": "2026-10-26T07:10:45.169564+00:00",
+  "final_design_release_gate": "9/9 groups PASS; 20 localized pages; browser overflow PASS"
+}

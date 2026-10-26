@@ -1,0 +1,11 @@
+{
+  "observed_date": "2026-10-26",
+  "tested_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ru/",
+  "result_url": "https://search.google.com/test/rich-results/result?id=4BWD3AIsziG8uK45YmJ1ww",
+  "valid_profile_page_items": 1,
+  "crawl_allowed": true,
+  "page_fetch": "Successful",
+  "indexing_allowed": true,
+  "crawler": "Google Inspection Tool smartphone",
+  "google_indexed": "NOT_VERIFIED"
+}

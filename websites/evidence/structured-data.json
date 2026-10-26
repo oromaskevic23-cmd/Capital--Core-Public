@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-26T05:58:20.768656+00:00",
+  "tool": "Google Rich Results Test",
+  "mode": "CODE",
+  "page": "founder/dist/index.html",
+  "tested_html_sha256": "0fbbec11f78bbef51d0ee3b87d1dbaf227ed71374b710c9938f09a92a996db76",
+  "result": "1 valid item detected",
+  "type": "Profile page",
+  "entity_name": "Alexander Romaskevich",
+  "result_url": "https://search.google.com/test/rich-results/result/r%2Fprofile-page?id=lFnvHeACGPv_96ZzVTGKaw",
+  "scope": "Submitted HTML/JSON-LD validation only. Not a live URL fetch, indexing result or Knowledge Panel."
+}

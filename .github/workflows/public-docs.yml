@@ -19,3 +19,9 @@ jobs:
           persist-credentials: false
       - name: Validate public documentation
         run: python3 tools/verify_public_docs.py
+      - name: Build multilingual websites
+        run: python3 websites/tools/build.py
+      - name: Validate HTML, identities, locales and public assets
+        run: python3 websites/tools/verify.py
+      - name: Require reproducible generated files
+        run: git diff --exit-code -- websites/founder websites/ecosystem

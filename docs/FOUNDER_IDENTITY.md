@@ -1,14 +1,14 @@
 # Founder identity contract
 
-Effective: **25 October 2026** · Owner directive: `IC-ASTRA-FOUNDER-ENTERPRISE-PROFILE-20261025-001`.
+Updated: **26 October 2026** · Owner directive: `IC-ASTRA-GLOBAL-FOUNDER-GOOGLE-IDENTITY-20261025-004`.
 
 | Field | Canonical public wording |
 |---|---|
 | Primary name | Alexander Romaskevich |
 | Russian name | Александр Николаевич Ромаскевич |
-| Ukrainian name | Олександр Миколайович Ромаскевич |
+| Ukrainian name | Олександр Ромаскевич |
 | Signature | RomaskevicH |
-| Role | Founder • Owner • CEO of IMPERIAL Core |
+| Role | Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core |
 | Architectural authority | Architect / Final Architectural Decision Authority |
 | Location | Ukraine |
 | HANTER role | AI Command Center / Chief Systems, subject to the founder's architectural decisions |
@@ -17,19 +17,19 @@ Founder titles are owner-declared project roles, not independent verification of
 
 ## English
 
-Alexander Romaskevich (RomaskevicH) is the Founder, Owner and CEO of IMPERIAL Core and its Architect / Final Architectural Decision Authority. Based in Ukraine, he is developing an AI-native engineering ecosystem for governed AI agents, verified software engineering and autonomous digital systems. The architecture uses federated orchestrators, professional teams and dynamically allocated Nano Core Agents. Public reference implementations and their test evidence are distinguished from future architectural goals.
+Alexander Romaskevich (RomaskevicH) is the Founder, Owner, CEO and Chief Systems Architect of IMPERIAL Core and its Architect / Final Architectural Decision Authority. Based in Ukraine, he is developing an AI-native engineering ecosystem for governed AI agents, verified software engineering and autonomous digital systems. The architecture uses federated orchestrators, professional teams and dynamically allocated Nano Core Agents. Public reference implementations and their test evidence are distinguished from future architectural goals.
 
 **Headline:** Building IMPERIAL Core — Governed AI Agents, Verified Software Engineering & Autonomous Digital Systems.
 
 ## Українська
 
-Олександр Миколайович Ромаскевич (Alexander Romaskevich, RomaskevicH) — засновник, власник і CEO IMPERIAL Core, Архітектор, за яким залишається остаточне право ухвалення архітектурних рішень. Базується в Україні та розвиває інженерну AI-native екосистему керованих ШІ-агентів, перевірюваної розробки програмного забезпечення й автономних цифрових систем. Архітектура передбачає федеративних оркестраторів, професійні команди та динамічну кількість Nano Core Agents. Публічні еталонні реалізації та результати їхніх тестів відокремлено від майбутніх архітектурних цілей.
+Олександр Ромаскевич (Alexander Romaskevich, RomaskevicH) — засновник, власник, CEO та головний системний архітектор IMPERIAL Core, Архітектор, за яким залишається остаточне право ухвалення архітектурних рішень. Базується в Україні та розвиває інженерну AI-native екосистему керованих ШІ-агентів, перевірюваної розробки програмного забезпечення й автономних цифрових систем. Архітектура передбачає федеративних оркестраторів, професійні команди та динамічну кількість Nano Core Agents. Публічні еталонні реалізації та результати їхніх тестів відокремлено від майбутніх архітектурних цілей.
 
 **Заголовок:** Розбудовую IMPERIAL Core — керовані ШІ-агенти, перевірювана розробка програмного забезпечення та автономні цифрові системи.
 
 ## Русский
 
-Александр Николаевич Ромаскевич (Alexander Romaskevich, RomaskevicH) — основатель, владелец и CEO IMPERIAL Core, Архитектор с окончательным правом принятия архитектурных решений. Находится в Украине и развивает инженерную AI-native экосистему управляемых ИИ-агентов, проверяемой разработки программного обеспечения и автономных цифровых систем. Архитектура предусматривает федеративных оркестраторов, профессиональные команды и динамическое количество Nano Core Agents. Публичные эталонные реализации и результаты их тестов отделены от будущих архитектурных целей.
+Александр Николаевич Ромаскевич (Alexander Romaskevich, RomaskevicH) — основатель, владелец, CEO и главный системный архитектор IMPERIAL Core, Архитектор с окончательным правом принятия архитектурных решений. Находится в Украине и развивает инженерную AI-native экосистему управляемых ИИ-агентов, проверяемой разработки программного обеспечения и автономных цифровых систем. Архитектура предусматривает федеративных оркестраторов, профессиональные команды и динамическое количество Nano Core Agents. Публичные эталонные реализации и результаты их тестов отделены от будущих архитектурных целей.
 
 **Заголовок:** Развиваю IMPERIAL Core — управляемые ИИ-агенты, проверяемая разработка программного обеспечения и автономные цифровые системы.
 
@@ -38,7 +38,7 @@ Alexander Romaskevich (RomaskevicH) is the Founder, Owner and CEO of IMPERIAL Co
 - Name: `Alexander Romaskevich`
 - Company: `IMPERIAL Core`
 - Location: `Ukraine`
-- Bio: `Founder • Owner • CEO of IMPERIAL Core | Architect | Governed AI agents, verified software engineering & autonomous digital systems`
+- Bio: `Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core | Architect | Governed AI agents, verified software engineering & autonomous digital systems`
 - Website: use a verified, identity-consistent live page; the existing account's Val Town URL returned HTTP 404 in this audit.
 
 **Verified public GitHub profile repository (25 October 2026):** [oromaskevic23-cmd/oromaskevic23-cmd](https://github.com/oromaskevic23-cmd/oromaskevic23-cmd) now exists as a PUBLIC repository with a root [README.md](https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/blob/main/README.md). The earlier prepared [profile README template](../profile/README.md) remains historical source material. The profile repository's existence and README content were checked through the connected GitHub account; actual Google indexing and Knowledge Panel status remain NOT_VERIFIED.
