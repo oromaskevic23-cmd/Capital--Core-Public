@@ -8,6 +8,13 @@ IMPERIAL Core is a founder-led AI-native engineering ecosystem under development
 Founder • Owner • CEO of IMPERIAL Core  
 Architect / Final Architectural Decision Authority · Ukraine
 
+## Official public websites · Alexander Romaskevich / RomaskevicH
+
+- **[Founder identity — Alexander Romaskevich](https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/)** — Александр Николаевич Ромаскевич · Олександр Миколайович Ромаскевич; multilingual personal website.
+- **[IMPERIAL Core — ecosystem website](https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/)** — multilingual company/project presentation, architecture and verifiable engineering context.
+
+Both URLs are hosted on GitHub Pages, with 10 indexable language versions, sitemap files and per-language canonical/hreflang metadata. Search Console ownership and actual Google indexing must be verified separately.
+
 ## Start here
 
 - [Live GitHub Founder Profile](https://github.com/oromaskevic23-cmd) · [versioned Enterprise README](profile/README.md) · [multilingual identity](docs/FOUNDER_IDENTITY.md).
