@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-26T06:44:35.460640+00:00",
+  "observed_at": "2026-10-26T06:51:09.688525+00:00",
   "published_bytes_verified": true,
   "crawlable": true,
   "google_indexed": "NOT_VERIFIED",
@@ -87,10 +87,10 @@
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/",
-      "expected_sha256": "0fbbec11f78bbef51d0ee3b87d1dbaf227ed71374b710c9938f09a92a996db76",
+      "expected_sha256": "518bc5c8489d479c231485c6534d8d7af82f9f640c0ee63ec47f2eb44221a806",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/",
-      "actual_sha256": "0fbbec11f78bbef51d0ee3b87d1dbaf227ed71374b710c9938f09a92a996db76",
+      "actual_sha256": "518bc5c8489d479c231485c6534d8d7af82f9f640c0ee63ec47f2eb44221a806",
       "x_robots_tag": "",
       "matches": true
     },
@@ -123,10 +123,10 @@
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ru/",
-      "expected_sha256": "3931bd7cd6031a2dd65808f26123954a100bce6dac41699685b1eacd1d236441",
+      "expected_sha256": "67f8d151b4a4c8f70f38988b83ec182ad9292de2d3f18998d90ed9e3ff835a26",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/ru/",
-      "actual_sha256": "3931bd7cd6031a2dd65808f26123954a100bce6dac41699685b1eacd1d236441",
+      "actual_sha256": "67f8d151b4a4c8f70f38988b83ec182ad9292de2d3f18998d90ed9e3ff835a26",
       "x_robots_tag": "",
       "matches": true
     },
@@ -276,10 +276,10 @@
     },
     {
       "url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/",
-      "expected_sha256": "fa70c094f299c46dd4645cb2647880b8fc2da0682d3140e6e6bcc8557fd0f8e0",
+      "expected_sha256": "fd1c2468c4c386b7bd50ae0229e216090850328aede8e82bb980ab1a6485c0fe",
       "http_status": 200,
       "final_url": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/",
-      "actual_sha256": "fa70c094f299c46dd4645cb2647880b8fc2da0682d3140e6e6bcc8557fd0f8e0",
+      "actual_sha256": "fd1c2468c4c386b7bd50ae0229e216090850328aede8e82bb980ab1a6485c0fe",
       "x_robots_tag": "",
       "matches": true
     },

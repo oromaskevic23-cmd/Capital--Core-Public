@@ -180,5 +180,18 @@ class ReleaseGate(unittest.TestCase):
             self.assertTrue(scripts[0]['src'].endswith('/assets/site.js'))
             self.assertTrue(all(i.get('alt') for i in d.select('img')))
 
+    def test_09_full_name_search_identity(self):
+        full_name = 'Александр Николаевич Ромаскевич'
+        for (kind, lang), document in PAGES.items():
+            self.assertIn(full_name, ' '.join(document.visible))
+            person = next(n for n in document.jsonld[0]['@graph'] if n['@type'] == 'Person')
+            self.assertIn(full_name, person['alternateName'])
+            self.assertIn('RomaskevicH', person['alternateName'])
+            if kind == 'founder' and lang == 'ru':
+                source = file_for(url(kind, lang)).read_text()
+                self.assertIn(full_name, re.search(r'<title>(.*?)</title>', source).group(1))
+                self.assertIn(full_name, document.select('meta', name='description')[0]['content'])
+                self.assertTrue(all(full_name in i['alt'] for i in document.select('img')))
+
 if __name__=='__main__':
     unittest.main(verbosity=2)

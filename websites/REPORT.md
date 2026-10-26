@@ -4,16 +4,18 @@
 
 ## DONE
 
-Подготовлены два новых самостоятельных сайта: профиль основателя и обзор IMPERIAL Core. Каждый содержит 10 полноценных языковых страниц (EN, UK, RU, DE, FR, ES, PT, JA, ZH, AR), отдельные URL, title/description, self-canonical, взаимные hreflang и x-default. Фото перенесено без изменения байтов. Сайты связаны друг с другом и с девятью публичными проектами GitHub. Ни один старый сайт не заменён и не опубликован повторно.
+Опубликованы два новых самостоятельных сайта: профиль основателя и обзор IMPERIAL Core. Каждый содержит 10 полноценных языковых страниц (EN, UK, RU, DE, FR, ES, PT, JA, ZH, AR), отдельные URL, title/description, self-canonical, взаимные hreflang и x-default. Фото перенесено без изменения байтов. Сайты связаны друг с другом и с девятью публичными проектами GitHub. Ни один старый сайт не заменён и не опубликован повторно.
 
 Новые адреса рассчитаны на GitHub Pages: `https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/` и `https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/`. Это бесплатный поддомен GitHub и два пути проектов. Сначала оба адреса возвращали **404**. После создания веток `gh-pages` GitHub завершил два успешных запуска `pages build and deployment`; опубликованные файлы проверены по HTTP и SHA-256. Оба сайта теперь **PUBLISHED / CRAWLABLE**. Это не означает индексацию Google.
+
+Дизайны различаются: личный профиль — тёмный фон, золотые акценты, шрифт с засечками и крупный портрет; IMPERIAL Core — светлый фон, синие акценты, строгий шрифт без засечек, центральный заголовок и отдельные карточки направлений.
 
 Исходная архитектура и название IMPERIAL Core сохранены. Упоминания юридического статуса, оценок, доходов, клиентов и наград не выдуманы. NDB/IMPERIUM сопровождаются точной квалификацией авторства как заявления основателя. IMPERIUM описан как долгосрочная архитектурная цифровая валюта для ИИ-агентов всего мира.
 
 ## TESTED
 
-- 8 автоматических групп проверок успешно проверили все 20 страниц: HTML, метаданные, reciprocal hreflang, граф сущностей, файлы/ссылки/якоря, sitemap, SHA-256 и ограниченный поиск распространённых форматов секретов.
-- Google Rich Results Test в режиме CODE: **1 valid item detected — Profile page — Alexander Romaskevich**. [Результат Google](https://search.google.com/test/rich-results/result/r%2Fprofile-page?id=lFnvHeACGPv_96ZzVTGKaw). Проверена английская страница основателя; остальные языки прошли локальную структурную проверку. Это не проверка опубликованного URL и не подтверждение индексации.
+- 9 автоматических групп проверок успешно проверили все 20 страниц: HTML, метаданные, reciprocal hreflang, граф сущностей, файлы/ссылки/якоря, sitemap, SHA-256 и ограниченный поиск распространённых форматов секретов.
+- Google Rich Results Test в режиме CODE: **1 valid item detected — Profile page — Alexander Romaskevich**. [Результат Google](https://search.google.com/test/rich-results/result/r%2Fprofile-page?id=lFnvHeACGPv_96ZzVTGKaw). Проверена английская страница основателя; остальные языки прошли локальную структурную проверку. Это была проверка исходного HTML. Дополнительно Google проверил опубликованный RU URL: **1 valid Profile page**, crawl allowed **Yes**, page fetch **Successful**, indexing allowed **Yes**. [Live URL test](https://search.google.com/test/rich-results/result?id=4BWD3AIsziG8uK45YmJ1ww). Это успешная загрузка Google Inspection Tool, не подтверждение индексации.
 - В браузере проверены все 20 страниц на ширине 320 px (доступная ширина 305 px с полосой прокрутки): горизонтального переполнения нет. Исправлены декоративный фон и ширина меню в UK/PT. Арабские страницы имеют RTL.
 - Переход English → Русский выполнен через меню и привёл на отдельный URL. Основное содержимое существует в HTML и доступно без JavaScript.
 - 9 репозиториев, профиль и маршрут public issues: **11 HTTP 200**. Записи: [external-links.json](evidence/external-links.json).
