@@ -1,0 +1,26 @@
+name: Trader Paper Gate CI
+on:
+  pull_request:
+    paths:
+      - "integrations/trader-skill/**"
+      - ".github/workflows/trader-paper-gate.yml"
+  push:
+    paths:
+      - "integrations/trader-skill/**"
+      - ".github/workflows/trader-paper-gate.yml"
+permissions:
+  contents: read
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Syntax check
+        run: python -m compileall -q integrations/trader-skill
+      - name: Offline tests
+        working-directory: integrations/trader-skill
+        run: python -m unittest -v test_paper_gate.py test_enterprise_bridge.py test_audit_store.py

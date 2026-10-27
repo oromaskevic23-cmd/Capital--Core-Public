@@ -1,0 +1,15 @@
+{
+  "schema": "imperial.trader.upstream-lock.v1",
+  "repository": "Jakeschincariol/trader-skill",
+  "commit": "5189e79b9a480755a3733ac9713f5353981dbe18",
+  "license_claim": "MIT; license text must be independently verified before importing",
+  "imported_upstream_files": [],
+  "reviewed_blobs": {
+    "README.md": "449cb93a62fb072cb01b9bbb454197edc30f39a0",
+    "trader-risk/check.py": "ff2f59b53d8bba5727b0e9d9b1e5bbc11e178996",
+    "trader-budget/size.py": "6920c8429867b9b578383374e2bf9a1b84e181bc",
+    "trader-broker/ticket.py": "94064133f2ea72fa64434aebfbf7ea9f6489db96"
+  },
+  "status": "SOURCE_PINNED_NOT_IMPORTED",
+  "allow_broker": false
+}
