@@ -1,0 +1,27 @@
+{
+  "schema_version": "imperial.trader-skill.policy.v1",
+  "source_repository": "https://github.com/Jakeschincariol/trader-skill",
+  "license": "MIT",
+  "integration_state": "STAGING_REVIEW",
+  "canonical_model": "VELION ⚡️",
+  "upstream_skills": [
+    "trader-alerts",
+    "trader-analyst",
+    "trader-broker",
+    "trader-budget",
+    "trader-copycat",
+    "trader-news",
+    "trader-pelosi",
+    "trader-rebalance",
+    "trader-risk",
+    "trader-screener",
+    "trader-tax"
+  ],
+  "paper_only": true,
+  "live_trading_enabled": false,
+  "order_execution_enabled": false,
+  "broker_connectors_enabled": false,
+  "credentials_allowed": false,
+  "network_access_default": "DENY",
+  "owner_approval_required": true
+}
