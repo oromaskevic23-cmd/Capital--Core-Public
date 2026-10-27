@@ -1,30 +1,41 @@
-"""IMPERIAL Core paper-only order proposal gate. No broker or network imports."""
+"""Offline, fail-closed risk gate for simulated proposals. No order execution."""
 from decimal import Decimal, InvalidOperation
+import re
 
-def evaluate(order, *, equity, cash, max_order_pct=Decimal("0.10"), min_cash_pct=Decimal("0.10")):
-    """Fail closed; this does not authorize any real or paper broker execution."""
-    deny = lambda reason: {"status": "BLOCK", "reason": reason, "execution_authorized": False}
+_DECIMAL = re.compile(r"^(?:0|[1-9][0-9]*)(?:\.[0-9]{1,2})?$")
+_SYMBOL = re.compile(r"^[A-Z]{1,5}$")
+
+def _money(value):
+    if not isinstance(value, str) or not _DECIMAL.fullmatch(value):
+        raise ValueError("money must be a nonnegative decimal string with <=2 decimals")
+    result = Decimal(value)
+    if not result.is_finite():
+        raise ValueError("nonfinite amount")
+    return result
+
+def evaluate(order, *, equity, cash, max_order_pct="0.10", min_cash_pct="0.10", kill_switch=False):
+    """Pure decision; PAPER_ELIGIBLE is never an authorization to execute."""
+    def deny(reason):
+        return {"status": "BLOCK", "reason": reason, "execution_authorized": False}
+    if type(kill_switch) is not bool or kill_switch:
+        return deny("owner kill switch engaged or invalid")
     if not isinstance(order, dict) or set(order) != {"symbol", "side", "notional_usd"}:
         return deny("invalid order schema")
-    symbol = order["symbol"]
-    if not isinstance(symbol, str) or not (1 <= len(symbol) <= 5 and symbol.isascii() and symbol.isalpha() and symbol.isupper()):
+    if not isinstance(order["symbol"], str) or not _SYMBOL.fullmatch(order["symbol"]):
         return deny("invalid symbol")
     if order["side"] != "buy":
-        return deny("only simulated long buys supported")
+        return deny("only synthetic long buys supported")
     try:
-        if isinstance(order["notional_usd"], (bool, float)) or isinstance(equity, (bool, float)) or isinstance(cash, (bool, float)):
-            return deny("decimal strings required")
-        amount = Decimal(str(order["notional_usd"]))
-        total = Decimal(str(equity))
-        available = Decimal(str(cash))
-        if not all(x.is_finite() for x in (amount, total, available)):
-            return deny("non-finite amount")
-    except (InvalidOperation, TypeError, ValueError):
-        return deny("invalid monetary amount")
-    if amount <= 0 or total <= 0 or available < 0 or available > total:
+        amount, total, available = (_money(v) for v in (order["notional_usd"], equity, cash))
+        cap, reserve = (Decimal(v) for v in (max_order_pct, min_cash_pct))
+        if not all(v.is_finite() and Decimal(0) <= v <= Decimal(1) for v in (cap, reserve)):
+            return deny("invalid limits")
+    except (ValueError, InvalidOperation, TypeError):
+        return deny("invalid money or limits")
+    if amount <= 0 or total <= 0 or available > total:
         return deny("invalid balance")
-    if amount > total * max_order_pct:
+    if amount > total * cap:
         return deny("max order cap exceeded")
-    if available - amount < total * min_cash_pct:
+    if available - amount < total * reserve:
         return deny("cash buffer violated")
-    return {"status": "PAPER_ELIGIBLE", "reason": "synthetic risk checks passed", "execution_authorized": False}
+    return {"status": "PAPER_ELIGIBLE", "reason": "synthetic checks passed", "execution_authorized": False}
