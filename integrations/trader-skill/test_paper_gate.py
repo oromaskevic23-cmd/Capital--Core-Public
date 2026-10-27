@@ -1,21 +1,43 @@
 import unittest
 from paper_gate import evaluate
 
-class PaperGateTests(unittest.TestCase):
-    def test_paper_proposal_never_authorized(self):
-        r=evaluate({"symbol":"AAPL","side":"buy","notional_usd":"100"},equity="5000",cash="5000")
-        self.assertEqual(r["status"],"PAPER_ELIGIBLE")
-        self.assertFalse(r["execution_authorized"])
-    def test_excessive_size(self):
-        self.assertEqual(evaluate({"symbol":"AAPL","side":"buy","notional_usd":"600"},equity="5000",cash="5000")["status"],"BLOCK")
-    def test_cash_buffer(self):
-        self.assertEqual(evaluate({"symbol":"AAPL","side":"buy","notional_usd":"100"},equity="5000",cash="550")["status"],"BLOCK")
-    def test_reject_sell(self):
-        self.assertEqual(evaluate({"symbol":"AAPL","side":"sell","notional_usd":"100"},equity="5000",cash="5000")["status"],"BLOCK")
-    def test_reject_float(self):
-        self.assertEqual(evaluate({"symbol":"AAPL","side":"buy","notional_usd":100.0},equity="5000",cash="5000")["status"],"BLOCK")
-    def test_reject_extra_keys(self):
-        self.assertEqual(evaluate({"symbol":"AAPL","side":"buy","notional_usd":"100","broker":"live"},equity="5000",cash="5000")["status"],"BLOCK")
+ORDER = {"symbol": "AAPL", "side": "buy", "notional_usd": "100.00"}
 
-if __name__=="__main__":
+def check(order=None, **kwargs):
+    return evaluate(ORDER if order is None else order, equity="5000.00", cash="5000.00", **kwargs)
+
+class GateTests(unittest.TestCase):
+    def test_eligible_never_authorized(self):
+        self.assertEqual(check()["status"], "PAPER_ELIGIBLE")
+        self.assertFalse(check()["execution_authorized"])
+    def test_cap(self):
+        self.assertEqual(check({**ORDER,"notional_usd":"501.00"})["status"], "BLOCK")
+    def test_cash_buffer(self):
+        self.assertEqual(evaluate(ORDER,equity="5000.00",cash="550.00")["status"], "BLOCK")
+    def test_kill_switch(self):
+        self.assertEqual(check(kill_switch=True)["status"], "BLOCK")
+    def test_invalid_kill_switch(self):
+        self.assertEqual(check(kill_switch="false")["status"], "BLOCK")
+    def test_broker_field(self):
+        self.assertEqual(check({**ORDER,"broker":"live"})["status"], "BLOCK")
+    def test_sell(self):
+        self.assertEqual(check({**ORDER,"side":"sell"})["status"], "BLOCK")
+    def test_bad_symbol(self):
+        self.assertEqual(check({**ORDER,"symbol":"AAPL;rm"})["status"], "BLOCK")
+    def test_float(self):
+        self.assertEqual(check({**ORDER,"notional_usd":100.0})["status"], "BLOCK")
+    def test_nan(self):
+        self.assertEqual(check({**ORDER,"notional_usd":"NaN"})["status"], "BLOCK")
+    def test_negative(self):
+        self.assertEqual(check({**ORDER,"notional_usd":"-1"})["status"], "BLOCK")
+    def test_precision(self):
+        self.assertEqual(check({**ORDER,"notional_usd":"1.001"})["status"], "BLOCK")
+    def test_invalid_limits(self):
+        self.assertEqual(check(max_order_pct="NaN")["status"], "BLOCK")
+    def test_zero_equity(self):
+        self.assertEqual(evaluate(ORDER,equity="0",cash="0")["status"], "BLOCK")
+    def test_invalid_cash(self):
+        self.assertEqual(evaluate(ORDER,equity="5000",cash="6000")["status"], "BLOCK")
+
+if __name__ == "__main__":
     unittest.main()
