@@ -23,4 +23,4 @@ jobs:
         run: python -m compileall -q integrations/trader-skill
       - name: Offline tests
         working-directory: integrations/trader-skill
-        run: python -m unittest -v test_paper_gate.py test_enterprise_bridge.py
+        run: python -m unittest -v test_paper_gate.py test_enterprise_bridge.py test_audit_store.py
