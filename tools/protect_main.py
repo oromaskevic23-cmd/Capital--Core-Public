@@ -1,9 +1,17 @@
 #!/usr/bin/env python3
-"""Read-only by default. Apply GitHub main protection with explicitly approved admin token.
-Requires Python 3 stdlib, env GITHUB_TOKEN with Administration write rights.
-Does not print tokens or response bodies.
+"""IMPERIAL Core 26-repository main protection controller.
+
+Stdlib only. Never stores/prints credentials. Defaults to read-only audit.
+--plan: preflight actual successful GitHub check-run names for each repository.
+--apply: requires explicit environment approval, independent reviewer confirmation,
+         and successful check-run on main. Fails closed per repository.
+--audit: verify effective branch protection, including exact required checks.
+
+Use fine-grained GITHUB_TOKEN with Administration read for --plan/--audit,
+Administration write for --apply. Never commit a token.
 """
-import os,json,urllib.request,urllib.error,sys
+import json, os, sys, urllib.request, urllib.error
+OWNER="oromaskevic23-cmd"
 REPOS="""IMPERIAL-Core-
 Repository-name-IMPERIAL-Core
 HANTER
@@ -30,64 +38,83 @@ IMPERIAL-Core-US-HoldCo-Founder-Control-Blueprint
 oromaskevic23-cmd
 Jem-
 IMPERIAL-Venture-Factory""".splitlines()
-OWNER="oromaskevic23-cmd"
-def request(path,method="GET",data=None):
-    token=os.environ["GITHUB_TOKEN"]
-    req=urllib.request.Request("https://api.github.com"+path,
-        headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json",
-                 "X-GitHub-Api-Version":"2022-11-28","User-Agent":"imperial-enterprise-protection"},
-        method=method,data=json.dumps(data).encode() if data is not None else None)
-    with urllib.request.urlopen(req,timeout=20) as response:
-        body=response.read()
-        return json.loads(body) if body else {}
-def target(repo):
-    return "/repos/"+OWNER+"/"+repo+"/branches/main/protection"
-def policy(checks):
+REQUIRED_JOB="security-baseline"
+def api(path, method="GET", data=None):
+    token=os.environ.get("GITHUB_TOKEN")
+    if not token: raise RuntimeError("GITHUB_TOKEN not configured")
+    headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json",
+             "X-GitHub-Api-Version":"2022-11-28","User-Agent":"imperial-protection-controller"}
+    req=urllib.request.Request("https://api.github.com"+path,method=method,headers=headers,
+        data=json.dumps(data).encode() if data is not None else None)
+    try:
+        with urllib.request.urlopen(req,timeout=25) as res:
+            raw=res.read()
+            return json.loads(raw) if raw else {}
+    except urllib.error.HTTPError as e:
+        raise RuntimeError("HTTP_"+str(e.code)) from None
+def repo_path(name): return "/repos/"+OWNER+"/"+name
+def preflight(name):
+    base=repo_path(name)
+    info=api(base)
+    if info.get("default_branch")!="main": raise RuntimeError("MAIN_NOT_DEFAULT")
+    head=api(base+"/branches/main")
+    sha=head["commit"]["sha"]
+    checks=api(base+"/commits/"+sha+"/check-runs?per_page=100")
+    matching=[x for x in checks.get("check_runs",[]) if x.get("name")==REQUIRED_JOB
+              and x.get("status")=="completed" and x.get("conclusion")=="success"]
+    # Never assume a workflow title is the check context.
+    return sha, bool(matching), [x.get("name") for x in checks.get("check_runs",[])]
+def policy():
     return {
-      "required_status_checks":{"strict":True,"contexts":checks},
+      "required_status_checks":{"strict":True,"contexts":[REQUIRED_JOB]},
       "enforce_admins":True,
       "required_pull_request_reviews":{"dismiss_stale_reviews":True,
-          "require_code_owner_reviews":True,"required_approving_review_count":1,
-          "require_last_push_approval":True},
-      "restrictions":None,
-      "required_linear_history":True,
-      "allow_force_pushes":False,
-      "allow_deletions":False,
-      "required_conversation_resolution":True,
-      "lock_branch":False,
+        "require_code_owner_reviews":True,"required_approving_review_count":1,
+        "require_last_push_approval":True},
+      "restrictions":None,"required_linear_history":True,
+      "allow_force_pushes":False,"allow_deletions":False,
+      "required_conversation_resolution":True,"lock_branch":False,
       "allow_fork_syncing":False
     }
+def verify(name):
+    p=api(repo_path(name)+"/branches/main/protection")
+    reviews=p.get("required_pull_request_reviews") or {}
+    checks=p.get("required_status_checks") or {}
+    return (p.get("enforce_admins",{}).get("enabled") is True
+      and REQUIRED_JOB in checks.get("contexts",[])
+      and checks.get("strict") is True
+      and reviews.get("required_approving_review_count",0)>=1
+      and reviews.get("require_code_owner_reviews") is True
+      and reviews.get("dismiss_stale_reviews") is True
+      and p.get("allow_force_pushes",{}).get("enabled") is False
+      and p.get("allow_deletions",{}).get("enabled") is False)
 def main():
-    if len(sys.argv)!=2 or sys.argv[1] not in ("--audit","--apply"):
-        raise SystemExit("Usage: python3 protect_main.py --audit | --apply")
-    if not os.getenv("GITHUB_TOKEN"):
-        raise SystemExit("GITHUB_TOKEN missing: no changes made")
-    apply=sys.argv[1]=="--apply"
-    print("Mode:", "APPLY" if apply else "READ-ONLY AUDIT")
+    if len(sys.argv)!=2 or sys.argv[1] not in ("--plan","--audit","--apply"):
+        raise SystemExit("Usage: protect_main.py --plan | --audit | --apply")
+    mode=sys.argv[1]
+    if mode=="--apply" and (os.getenv("IMPERIAL_OWNER_APPROVED")!="YES"
+       or os.getenv("INDEPENDENT_REVIEWER_CONFIRMED")!="YES"):
+        raise SystemExit("DENIED: explicit owner approval and independent reviewer confirmation required")
     failures=0
-    for repo in REPOS:
-        path=target(repo)
+    for name in REPOS:
         try:
-            if apply:
-                # A required check must be observed as successful on the actual default branch
-                # before it is configured; avoid permanently blocking merges with invented names.
-                print(repo, "NOT_APPLIED: verify exact required CI context and independent reviewer first")
-                failures+=1
-                continue
-            p=request(path)
-            reviews=p.get("required_pull_request_reviews") or {}
-            checks=p.get("required_status_checks") or {}
-            ok=bool(p.get("enforce_admins",{}).get("enabled") and
-                reviews.get("required_approving_review_count",0)>=1 and
-                reviews.get("require_code_owner_reviews") and
-                checks.get("contexts") and
-                not p.get("allow_force_pushes",{}).get("enabled") and
-                not p.get("allow_deletions",{}).get("enabled"))
-            print(repo,"PROTECTED" if ok else "INCOMPLETE")
+            if mode=="--audit":
+                ok=verify(name)
+                print(name, "VERIFIED" if ok else "INCOMPLETE")
+            else:
+                sha,ok,checks=preflight(name)
+                if not ok:
+                    print(name,"BLOCKED: successful security-baseline check absent on main; observed",checks[:12])
+                elif mode=="--plan":
+                    print(name,"READY_FOR_REVIEW",sha[:12],REQUIRED_JOB)
+                else:
+                    api(repo_path(name)+"/branches/main/protection","PUT",policy())
+                    ok=verify(name)
+                    print(name,"PROTECTION_VERIFIED" if ok else "WRITE_NOT_VERIFIED")
             failures+=not ok
-        except urllib.error.HTTPError as e:
-            print(repo,"UNVERIFIED_HTTP_"+str(e.code))
+        except Exception as exc:
             failures+=1
-    print("Verified:",len(REPOS)-failures,"/",len(REPOS))
-    return 1 if failures else 0
+            print(name,"BLOCKED",str(exc)[:100])
+    print("PASS",len(REPOS)-failures,"/",len(REPOS))
+    return int(failures>0)
 if __name__=="__main__":sys.exit(main())
