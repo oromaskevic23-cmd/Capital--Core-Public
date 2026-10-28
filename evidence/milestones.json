@@ -33,7 +33,7 @@
       "verification": "GitHub API run metadata, job steps and test summary read directly; not an independent external certification"
     },
     {
-      "project": "VELEON",
+      "project": "VELION",
       "repository": "https://github.com/oromaskevic23-cmd/VELION-LLM-Public",
       "repository_name": "VELION-LLM-Public",
       "visibility": "public",

@@ -13,7 +13,7 @@ IMPERIAL Core uses a **Federated Multi-Orchestrator Architecture**. Domain and f
 | Component | Architectural responsibility |
 |---|---|
 | HANTER | Architect interface and governed mission coordination |
-| VELEON | Intelligence architecture and bounded model proposals |
+| VELION | Intelligence architecture and bounded model proposals |
 | CONSTRUCTOR AI | Software construction and verification |
 | LEGION / Nano Core Agents | Professional teams and bounded agent work |
 | CYBER HAK | Defensive security and digital immune-system architecture |

@@ -9,7 +9,7 @@
 - Published identity and documentation changes across 15 repositories through 15 merged pull requests.
 - Verified the exact contents of all 61 changed files on the resulting main branches.
 - Published the nine-section English founder README, EN/UK/RU descriptions, architecture, roadmap, responsible disclosure, contribution guidance, provenance and a public evidence register.
-- Assigned current project roles: Alexander Romaskevich — Founder • Owner • CEO; Architect / Final Architectural Decision Authority. HANTER — Chief Systems. Source-confirmed intelligence name: VELEON.
+- Assigned current project roles: Alexander Romaskevich — Founder • Owner • CEO; Architect / Final Architectural Decision Authority. HANTER — Chief Systems. Source-confirmed intelligence name: VELION.
 - Preserved upstream fork attribution, Brother Edition ownership boundaries, existing licenses and all production-source bytes.
 
 ## Review the result
@@ -57,7 +57,7 @@
 
 ## Verified Engineering Milestones
 
-Historical engineering evidence remains distinct from this documentation sprint: HANTER **70/70**, VELEON **47/47**, CONSTRUCTOR AI **68/68**, CYBER HAK **99/99**. The [evidence register](EVIDENCE.md) links actual job logs, immutable commits and still-open engineering PRs. Mocked endpoints and offline scope are explicit. No deployment or global readiness percentage is inferred.
+Historical engineering evidence remains distinct from this documentation sprint: HANTER **70/70**, VELION **47/47**, CONSTRUCTOR AI **68/68**, CYBER HAK **99/99**. The [evidence register](EVIDENCE.md) links actual job logs, immutable commits and still-open engineering PRs. Mocked endpoints and offline scope are explicit. No deployment or global readiness percentage is inferred.
 
 ## FAILED / findings
 
