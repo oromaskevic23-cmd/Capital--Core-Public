@@ -61,7 +61,7 @@ a { color:inherit; text-decoration:none; }
 .portrait-wrap { min-height:600px; display:flex; align-items:center; justify-content:center; background:radial-gradient(circle at 50% 35%,rgba(218,167,77,.15),transparent 52%),#03080e; }
 .portrait-wrap img { display:block; width:100%; height:auto; max-height:860px; object-fit:contain; }
 .architect-copy { position:relative; display:flex; flex-direction:column; justify-content:center; padding:clamp(32px,7vw,104px); border-left:1px solid var(--line); }
-.architect-copy::before { content:"I"; position:absolute; right:5%; top:3%; font-family:Georgia,serif; font-size:22rem; line-height:1; color:rgba(213,166,79,.035); }
+.architect-copy::before { content:none; }
 .mini-label { color:var(--gold); font-size:11px; letter-spacing:.25em; }
 .architect-copy h3 { position:relative; margin:16px 0 4px; font-family:Georgia,serif; color:#f3e5bd; font-size:clamp(2rem,4vw,4.4rem); line-height:.95; font-weight:500; }
 .architect-name { color:#dce6ee; font-size:19px; letter-spacing:.1em; }
