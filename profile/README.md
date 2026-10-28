@@ -1,8 +1,11 @@
 # Alexander Romaskevich
 
+<p align="center"><a href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"><img src="../assets/imperial-core-logo.jpeg" alt="IMPERIAL Core — original gold crowned emblem" width="240"></a></p>
+
 **RomaskevicH**  
 **Founder • Owner • CEO of IMPERIAL Core**  
-**Architect / Final Architectural Decision Authority**
+
+**My ownership declaration: I own 100% of IMPERIAL Core shares.**
 
 Building IMPERIAL Core — Governed AI Agents, Verified Software Engineering & Autonomous Digital Systems.
 
@@ -82,7 +85,7 @@ I welcome technical review and conversations about governed AI systems, verified
 ## Authorship — RomaskevicH
 
 **Alexander Romaskevich · Александр Николаевич Ромаскевич · Олександр Миколайович Ромаскевич**  
-Founder • Owner • CEO of IMPERIAL Core. Architect / Final Architectural Decision Authority.
+Founder • Owner • CEO of IMPERIAL Core.
 
 Founder roles are project designations; this profile makes no corporate-registration or certification claim. Third-party models, libraries and forked repositories retain their original attribution and license terms. Git history records contributions; public visibility does not create a new license grant.
 

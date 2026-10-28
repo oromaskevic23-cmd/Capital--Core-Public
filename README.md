@@ -1,12 +1,15 @@
 # IMPERIAL Core
 
+<p align="center"><a href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"><img src="assets/imperial-core-logo.jpeg" alt="IMPERIAL Core — original gold crowned emblem" width="240"></a></p>
+
 **Engineering with Evidence.**
 
 IMPERIAL Core is a founder-led AI-native engineering ecosystem under development: governed agents, verified software engineering and autonomous digital systems under accountable human control.
 
 **Alexander Romaskevich — RomaskevicH**  
 Founder • Owner • CEO of IMPERIAL Core  
-Architect / Final Architectural Decision Authority
+
+**My ownership declaration: I own 100% of IMPERIAL Core shares.**
 
 ## Official public websites · Alexander Romaskevich / RomaskevicH
 
