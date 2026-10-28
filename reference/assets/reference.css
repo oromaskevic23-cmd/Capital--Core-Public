@@ -210,3 +210,18 @@ footer span { display:block; margin-top:30px; color:#c8d3dd; font-size:12px; }
 .portrait-wrap img,.product-founder img { object-fit:contain!important; }
 @media(max-width:900px) { .engineering-grid{grid-template-columns:1fr;gap:8px} .infrastructure-grid{grid-template-columns:1fr} .topbar{flex-wrap:wrap} .topbar nav{display:flex;order:3;width:100%;overflow-x:auto;white-space:nowrap;padding-bottom:6px} .topbar nav a{padding:6px 0} .hero{padding-top:60px} .infrastructure-card{padding:24px} }
 @media(max-width:500px) { .hero h1{font-size:clamp(2.4rem,11vw,4rem)} .hero-tagline{font-size:25px} .section-heading h2{overflow-wrap:anywhere} .topbar nav{font-size:10px} }
+
+/* Owner-approved emblem and public identity, 28 October 2026. */
+.topbar { background:#050c14; backdrop-filter:none; }
+.brand-mark,.product-topbar .brand-mark { position:relative; display:block; width:48px; height:48px; flex:0 0 48px; overflow:hidden; border:0; border-radius:8px; transform:none; box-shadow:none; }
+.brand-mark img { position:absolute; width:170%; height:170%; max-width:none; left:-35%; top:-10%; object-fit:contain; }
+.hero-emblem { display:block; width:clamp(220px,32vw,350px); max-width:100%; height:auto; margin:12px auto 24px; border-radius:12px; }
+.hero .hero-emblem+h1 { margin-top:18px; font-size:clamp(2rem,5vw,4rem); }
+.footer-mark { display:block; width:180px; height:180px; margin:0 auto 24px; border:0; transform:none; }
+.footer-mark img { display:block; width:100%; height:100%; object-fit:contain; }
+.ownership { max-width:740px; color:var(--gold-2); font-size:clamp(14px,1.6vw,17px); line-height:1.7; text-wrap:balance; }
+.hero .ownership,footer .ownership { margin:14px auto 0; }
+.role-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.role-grid span { overflow-wrap:anywhere; }
+@media(max-width:1050px) { .topbar { position:relative; flex-wrap:wrap; gap:12px; padding:12px 16px; }.topbar nav { order:3; width:100%; flex-wrap:wrap; justify-content:center; gap:10px 18px; line-height:1.6; }.language-switcher { margin-inline-start:auto; }.language-switcher label { display:none; }.language-switcher select { min-width:0; max-width:43vw; }.hero { padding-top:48px; }html { scroll-padding-top:24px; } }
+@media(max-width:420px) { .brand { gap:8px; letter-spacing:.06em; }.brand b { font-size:11px; }.brand small { display:none; }.language-switcher select { width:138px; font-size:10px; }.role-grid { grid-template-columns:1fr; }.hero-founder { font-size:18px; }.architect-copy h3 { font-size:clamp(24px,7vw,34px); } }
