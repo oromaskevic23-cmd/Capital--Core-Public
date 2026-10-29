@@ -1,4 +1,20 @@
-# IMPERIAL Core
+# Capital Core
+
+<p align="center">
+  <img src="assets/capital-core-20261029.jpg" alt="Capital Core concept with architecture and global real estate themes">
+</p>
+
+**Real assets. Real value. Real impact.**
+
+Capital Core is the proposed real-estate and financial direction of IMPERIAL Core. Its long-term vision includes property development, asset management, local professional teams, transparent governance and evidence-led decisions.
+
+**Status: concept and architectural direction.** The illustration contains aspirational descriptions and an illustrated domain; it does not establish operating businesses, managed assets, investment returns or an active website. Any future financial or real-estate activity requires its own evidence and applicable professional review.
+
+**Founder and Architect:** Alexander Romaskevich · **Signature:** RomaskevicH
+
+Related projects: [IMPERIAL Core](https://github.com/oromaskevic23-cmd/IMPERIAL-Core-Public) · [Nano Core Agents](https://github.com/oromaskevic23-cmd/Nano-Core-Agents-Public) · [CRYPTO IMPERIAL Ecosystem](https://github.com/oromaskevic23-cmd/CRYPTO-IMPERIAL-Ecosystem-Public).
+
+## IMPERIAL Core ecosystem context
 
 <p align="center"><a href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"><img src="assets/imperial-core-emblem.webp" alt="IMPERIAL Core — crowned globe emblem" width="240"></a></p>
 
