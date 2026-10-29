@@ -1,0 +1,209 @@
+{
+  "lang": "fr",
+  "name": "Français",
+  "dir": "ltr",
+  "title": "IMPERIAL Core — Architecture, projets et infrastructure",
+  "description": "Découvrez IMPERIAL Core, l’écosystème d’IA en développement d’Alexander Romaskevich : architecture fédérée, projets publics et preuves techniques datées.",
+  "skip": "Aller au contenu",
+  "nav": [
+    "Infrastructure",
+    "Projets GitHub",
+    "Guide"
+  ],
+  "language": "Langues",
+  "eyebrow": "Architecture et infrastructure",
+  "tagline": "Une intelligence encadrée. Une ingénierie vérifiable.",
+  "founded": "Fondé par",
+  "role": "Fondateur • Propriétaire • CEO · IMPERIAL Core",
+  "ownership": "",
+  "vision": "Illustration de la vision à long terme. Les chiffres et scènes représentés ne décrivent pas une capacité actuellement déployée.",
+  "truth": "Architecture ≠ Implémentation ≠ Tests ≠ Vérification en exécution ≠ Production",
+  "open": "Explorer le guide",
+  "projects": "Projets publics",
+  "development": "Axes de développement",
+  "developmentIntro": "IMPERIAL Core est un écosystème d’ingénierie fondé sur l’IA, en cours de développement. Les spécifications, implémentations de référence et résultats de tests ont des périmètres distincts.",
+  "tracks": [
+    [
+      "VELION ⚡",
+      "VELION est l’identité du produit LLM ; MAX est un mode. Le dépôt conserve son adresse historique. Les expérimentations datées et leurs limites sont décrites dans les preuves publiques."
+    ],
+    [
+      "CONSTRUCTOR AI",
+      "Une plateforme d’ingénierie logicielle en développement. Des tests de référence et des appels de modèles simulés ne démontrent pas une usine logicielle autonome complète."
+    ],
+    [
+      "Gouvernance et sécurité",
+      "CYBER HAK développe l’audit défensif. HANTER, ASTRA, Legion et les Nano Core Agents ont des responsabilités délimitées dans une architecture fédérée à plusieurs orchestrateurs."
+    ]
+  ],
+  "evidence": "Consulter les preuves techniques datées",
+  "infraTitle": "Où l’infrastructure est hébergée",
+  "infraIntro": "Les emplacements indiquent l’hébergement des services, pas le domicile du fondateur ni le siège d’une société.",
+  "checked": "Configuration examinée le 26 octobre 2026",
+  "infra": [
+    [
+      "RÉGION CONFIRMÉE",
+      "Supabase · base de données principale",
+      "Francfort, Allemagne · Europe",
+      "La configuration examinée indiquait eu-central-1 et ACTIVE_HEALTHY. Cette observation concerne la base principale ; les lieux d’exécution des Edge Functions doivent être vérifiés séparément."
+    ],
+    [
+      "HÉBERGEMENT GÉRÉ",
+      "Netlify · sites et services de liaison",
+      "Réseau de diffusion géré par le fournisseur",
+      "Les projets et métadonnées de déploiement ont été examinés. Cet inventaire ne précisait pas la région physique d’origine ni celle d’exécution des fonctions."
+    ],
+    [
+      "HÉBERGEMENT GÉRÉ",
+      "GitHub Pages · ce guide public",
+      "Hébergement web géré par GitHub",
+      "Les fichiers HTML, CSS et images sont publiés depuis le dépôt officiel. L’adresse du site ne prouve pas un emplacement précis de centre de données."
+    ],
+    [
+      "RÉGION NON VÉRIFIÉE",
+      "Val Town · services historiques",
+      "Région actuelle non confirmée",
+      "Des traces historiques existent. Les déploiements actuels, leur disponibilité et leurs régions d’exécution n’ont pas été vérifiés indépendamment lors de cette revue."
+    ]
+  ],
+  "infraBoundary": "Un réseau mondial de diffusion ne prouve pas l’existence de serveurs applicatifs indépendants sur trois continents.",
+  "sources": "Sources : revue autorisée de la configuration et documentation officielle des hébergeurs.",
+  "founderTitle": "Le fondateur",
+  "founderBio": "Alexander Romaskevich définit l’orientation architecturale d’IMPERIAL Core et conserve l’autorité de décision finale. Il est l’auteur du concept de CONSTRUCTOR AI, en développement dans cet écosystème.",
+  "quote": "L’IA peut être extrêmement intelligente, mais l’intelligence seule ne doit jamais lui conférer du pouvoir.",
+  "projectIntro": "Accès directs aux dépôts publics officiels et au profil du fondateur.",
+  "profile": "Profil GitHub officiel",
+  "guideTitle": "30 repères pour comprendre IMPERIAL Core",
+  "guideIntro": "Un guide traduit des concepts publics. Les noms des composants et des champs techniques restent inchangés pour préserver la cohérence de l’architecture.",
+  "detail": "Consulter le document technique détaillé en anglais",
+  "search": "Rechercher dans les 30 sections",
+  "placeholder": "Ex. HANTER, AI Passport, sécurité…",
+  "clear": "Effacer",
+  "results": "sections affichées",
+  "empty": "Aucune section trouvée. Essayez un nom de composant ou un autre mot.",
+  "architecture": "Une architecture fédérée",
+  "architectureIntro": "HANTER est le centre de commande et l’adjoint de l’Architecte. Plusieurs orchestrateurs de domaine coordonnent des équipes professionnelles et un nombre dynamique de Nano Core Agents. Aucune autorité globale illimitée n’est accordée.",
+  "footer": "Architecture avant implémentation • Refus par défaut • Protection humaine prioritaire",
+  "sections": [
+    [
+      "Structure principale",
+      "Architecte → HANTER → couche fédérée d’orchestrateurs → Runtime Domains → Nano Core Agents → exécution contrôlée → vérification → Audit Ledger. Alexander Romaskevich est le fondateur, propriétaire, CEO et l’autorité architecturale finale."
+    ],
+    [
+      "HANTER",
+      "Centre de commande IA et adjoint de l’Architecte : intelligence exécutive, décomposition des missions, planification, délégation, coordination et agrégation des preuves. HANTER ne devient pas un orchestrateur global tout-puissant, ne dépend pas de NERO et ne peut ni étendre ses privilèges ni réécrire les protections fondamentales."
+    ],
+    [
+      "Architecture canonique",
+      "Federated Multi-Orchestrator Architecture : plusieurs orchestrateurs, chacun lié à son Runtime Domain et à des Nano Core Agents autorisés. Le nombre d’orchestrateurs et d’agents est dynamique ; aucun orchestrateur global unique."
+    ],
+    [
+      "Nano Core Agents",
+      "Agents spécialisés avec AI Passport, rôle, Runtime Domain, capacités, Enterprise IMPERIAL Skills, politique associée, budget, contexte de mission et identité d’audit. Domaines possibles : logiciel, sécurité, recherche, finance, droit, opérations, infrastructure et activité économique."
+    ],
+    [
+      "Chaîne de sécurité",
+      "AI Passport → Enterprise IMPERIAL Skills → Guardian Core → Approval Gateway → Runtime Domain → périmètre d’exécution → Audit Ledger. Identité ≠ Autorité. Capacité ≠ Approbation. Intelligence ≠ Privilège."
+    ],
+    [
+      "AI Passport",
+      "Identifie l’agent sans lui accorder un droit inconditionnel d’agir. Champs minimaux : passport_id, agent_id, role, runtime_domain, capabilities, policy_version, issued_at, expires_at, status, cryptographic_identity."
+    ],
+    [
+      "Enterprise IMPERIAL Skills",
+      "Modules de compétences professionnelles contrôlées. Chaque Skill définit capacités, entrées, outils autorisés, actions interdites, Runtime Domain, approbation requise, niveau de privilège, délai, budget et exigences de preuve et d’audit."
+    ],
+    [
+      "Guardian Core",
+      "Porte principale de contrôle des politiques et de la sécurité. Vérifie identité, capacité, politique, risque et protection humaine avant ALLOW, DENY ou APPROVAL. Principe : Fail Closed, donc refus si les conditions ne sont pas établies."
+    ],
+    [
+      "Approval Gateway",
+      "Vérifie si cette action précise est autorisée pour cet agent à cet instant. États : ALLOW, DENY, REQUIRE_APPROVAL, REVOKED, EXPIRED. L’absence de décision implique DENY."
+    ],
+    [
+      "Audit Ledger",
+      "Relie mission, agent, AI Passport, politique, autorisation, exécution, résultat et preuves. Doit permettre d’établir qui a agi, ce qui était autorisé, la politique en vigueur, l’action réellement effectuée et son résultat."
+    ],
+    [
+      "Zero Trust",
+      "Un réseau de confiance ne rend pas un agent fiable. Un agent connu n’est pas automatiquement autorisé. Une ancienne approbation n’en vaut pas une actuelle ; un Skill installé n’autorise pas l’exécution ; un test réussi ne prouve pas la préparation à la production. Vérifier chaque action privilégiée."
+    ],
+    [
+      "Runtime Domains",
+      "Zones d’exécution isolant agents, outils, données, secrets, budgets, politiques, capacités et infrastructure. L’accès entre domaines est refusé par défaut et exige une autorisation explicite."
+    ],
+    [
+      "TETRIS",
+      "Couche de sécurité d’exécution : Security Kernel, Tool Execution Firewall, Agent Behavior Firewall, Target Containment, Evidence Lifecycle, Classification Controls et Kill Switch. Objectif : limiter les conséquences d’un agent défaillant ou compromis."
+    ],
+    [
+      "IMPERIAL AGI",
+      "Composant distinct : raisonnement → critique → vérification → preuves → recommandation. Ne remplace pas HANTER, n’est pas un orchestrateur global et ne reçoit aucune autorité d’exécution automatique. Respecte les frontières de confiance canoniques."
+    ],
+    [
+      "ISMG",
+      "IMPERIAL Sovereign Model Gateway relie les agents aux modèles. Fonctions : validation AI Passport, autorisation, registres des fournisseurs, modèles et capacités, routage, contrôle du budget, Secret Broker, Audit Adapter et Kill Switch. Une passerelle, pas un centre de commande."
+    ],
+    [
+      "Legion",
+      "Composant distinct d’IMPERIAL Core : participation distribuée, écosystème d’agents et d’orchestrateurs, isolation des Runtime Domains. Aucune autorité universelle ; chaque participant suit la chaîne de sécurité canonique."
+    ],
+    [
+      "ORION",
+      "Composant indépendant avec frontière propre, contrats d’intégration explicites et autorité fédérée. Aucun accès superutilisateur implicite."
+    ],
+    [
+      "Capital Core",
+      "Sous-système d’intelligence économique et commerciale. Intelligence financière ≠ autorité de transaction ≠ exécution de transaction."
+    ],
+    [
+      "CRYPTO IMPERIAL Ecosystem",
+      "Périmètre architectural distinct comprenant NDB, IMPERIUM, EconomicCapability, BudgetPolicy, PaymentIntent, AuthorizationDecision et PaymentReceipt."
+    ],
+    [
+      "IMPERIUM",
+      "Vision architecturale à long terme d’une monnaie numérique pour les agents IA du monde entier. Ne démontre ni adoption mondiale, ni usage actuel, ni liquidité de marché, ni paiements généralisés, ni domination économique en production."
+    ],
+    [
+      "Exécution économique",
+      "PaymentIntent → AI Passport → EconomicCapability → BudgetPolicy → Guardian Core → Approval Gateway → AuthorizationDecision → exécution → PaymentReceipt → Audit Ledger. Refuser les intentions expirées, rejeux, nonces dupliqués, montants, destinataires ou politiques modifiés, passeports ou domaines incorrects, capacités non autorisées, budgets insuffisants et transferts d’autorité entre agents."
+    ],
+    [
+      "Public / Private Boundary",
+      "Public : architecture, spécifications, dépôts, preuves vérifiables et documentation officielle. Privé : code propriétaire, secrets, identifiants, infrastructure d’exécution, politiques internes, contrôles privilégiés et configuration de sécurité. Une déclaration architecturale ne prouve pas une implémentation."
+    ],
+    [
+      "Protection humaine",
+      "Protection humaine > objectif commercial > autonomie du système > objectif de l’agent. Interdiction de nuire délibérément, de manipuler par coercition, de réprimer, de militariser contre les personnes ou de capturer la gouvernance. L’IA ne réécrit pas les protections fondamentales."
+    ],
+    [
+      "Kill Switch",
+      "Arrêt ciblé d’un agent, d’une capacité, d’une mission, d’un Runtime Domain, d’un modèle, d’un fournisseur ou de l’activité économique ; contrôle d’urgence du système. Désactiver le niveau minimal nécessaire pour contenir le problème."
+    ],
+    [
+      "Niveaux de preuve",
+      "E0 : architecture. E1 : spécification. E2 : implémentation. E3 : vérification statique et unitaire. E4 : intégration. E5 : vérification en exécution. E6 : preuves de production. Aucun niveau ne peut être relevé sans preuve."
+    ],
+    [
+      "Matrice Fail Closed",
+      "UNKNOWN, MISSING, INVALID, EXPIRED, REVOKED ou MISMATCH → DENY. Une condition inconnue, absente, invalide, expirée, révoquée ou incohérente ne donne pas d’autorisation."
+    ],
+    [
+      "Flux d’exécution",
+      "Architecte → HANTER → Mission Envelope → orchestrateur fédéré → Nano Core Agent → AI Passport → Enterprise IMPERIAL Skill → Guardian Core → Approval Gateway → Runtime Domain → TETRIS → ISMG / outil / service → exécution → vérificateur → Audit Ledger → preuves."
+    ],
+    [
+      "10 règles inviolables",
+      "1. Aucun orchestrateur global. 2. Refus par défaut. 3. Pas d’identité, pas d’exécution. 4. Pas de capacité, pas d’exécution. 5. Pas d’approbation, pas d’exécution privilégiée. 6. Pas d’auto-élévation des privilèges. 7. Pas d’autorité silencieuse entre domaines. 8. Pas d’autorité économique issue de la seule intelligence. 9. Pas de production affirmée sans preuves. 10. L’IA ne réécrit pas la protection humaine."
+    ],
+    [
+      "Formule directrice",
+      "Identité → capacité → politique → approbation → isolation → exécution → vérification → preuves. Au-dessus : protection humaine, autorité architecturale, Zero Trust et auditabilité."
+    ],
+    [
+      "IMPERIAL Core en une phrase",
+      "L’IA peut être extrêmement intelligente, mais l’intelligence seule ne doit jamais lui conférer du pouvoir."
+    ]
+  ]
+}

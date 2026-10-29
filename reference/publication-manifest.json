@@ -1,29 +1,62 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "canonical_base": "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference",
+  "brand": "crowned-globe",
   "pages": [
-    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/",
-    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/",
-    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/",
-    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/",
-    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/",
-    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/",
     "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/constructor-ai/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/",
     "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/constructor-ai/",
-    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/constructor-ai/"
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/constructor-ai/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/",
+    "https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"
   ],
   "files": [
     {
+      "path": "NOTICE.md",
+      "sha256": "c57bfebaf6ef2779e0cce91e9452f9057709c6be8684396fcc6f9a25f33b3492"
+    },
+    {
+      "path": "ar/index.html",
+      "sha256": "93334154d68366a4f434786eb82809611886a14e3912e6aca0773fbcb804e643"
+    },
+    {
       "path": "assets/alexander-romaskevich.jpeg",
       "sha256": "7758dacaa2b08ee3b305489297714d23ec4c6f819b546ea7c8e79e4fd54e7b07"
+    },
+    {
+      "path": "assets/brand.css",
+      "sha256": "c9fd9c6399ad04da602fab843bd3fb337268ef07b031d7e6db4904390805f1e9"
     },
     {
       "path": "assets/favicon.svg",
       "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
     },
     {
+      "path": "assets/imperial-core-emblem.webp",
+      "sha256": "b5ba5cba609fdb161cb8fcd537b8e312093f49c992701eb8ffc04eb99376dab0"
+    },
+    {
+      "path": "assets/imperial-core-favicon.png",
+      "sha256": "53fa5f414e3f80e0d5911bac85c0f9fde005fa5cdbaaec451d8fdcf6f8024a80"
+    },
+    {
       "path": "assets/imperial-core-logo.jpeg",
       "sha256": "95931c229df7cb4ad0b8d18731002f0db768dab795b1b97da40bd817ce264d85"
+    },
+    {
+      "path": "assets/imperial-core-vision-900.webp",
+      "sha256": "6a490b0c2960611bd48f880e2c177ce1925a28ad8997380a6fb7233eb919c466"
+    },
+    {
+      "path": "assets/imperial-core-vision.webp",
+      "sha256": "314e86bacf470f89178b5b2871562608deea8de4f02cefd9b5d2f59e0e1f86d7"
     },
     {
       "path": "assets/imperial-ecosystem.jpeg",
@@ -43,7 +76,23 @@
     },
     {
       "path": "assets/reference.js",
-      "sha256": "78ff54e886c1968951827b50c6444e596195199b35b09e764920d11cfcac956c"
+      "sha256": "9bed9e99751578a60d8e3a2acc279ffc7e8d22ef364d02b56faf18bca991b3be"
+    },
+    {
+      "path": "brand/BRAND.md",
+      "sha256": "1c0d55b276daaf7890dc6dd6ffba94606a81322720a9f58f7736b072bef73883"
+    },
+    {
+      "path": "brand/imperial-core-emblem-original.png",
+      "sha256": "594daeecdfd7c877bb10020ee425d24567632dd4c1e07f389f551abab2a6d50c"
+    },
+    {
+      "path": "brand/imperial-core-vision-original.jpeg",
+      "sha256": "c53d2084ad218e11a497a7fa50dc7232912a6d4fd3e08e583da7c7c08484fb78"
+    },
+    {
+      "path": "capital-core-enterprise.md",
+      "sha256": "b6d9eb085524662f9d7f452da5cd7390cfe00b85d3c648d4e0062932a5a0ec3e"
     },
     {
       "path": "constructor-ai/evidence.json",
@@ -51,19 +100,31 @@
     },
     {
       "path": "constructor-ai/index.html",
-      "sha256": "3a8de2a02c44e1141cfacfd13ffa64a414cfc423102770c80bc73f9b74c8efdc"
+      "sha256": "b804da4d3b251b4bdb4ee86ecbbeb2848b7074f3ba400e1f645afc3f28b04609"
     },
     {
       "path": "de-CH/index.html",
-      "sha256": "35c2a77ddf372e18139cf12a4e0ff54252be639fab867343b97bd1471ff06bf4"
+      "sha256": "8ffd3bcfbadab1de3db3388cbc99d087340d56fee9ff7cf1cced84cf5dd26564"
+    },
+    {
+      "path": "es/index.html",
+      "sha256": "240bbbeec13d3cf88334cf0a001c6715defc4b2e700a88f3f2c64c3b644399ac"
+    },
+    {
+      "path": "fr/index.html",
+      "sha256": "91befa2f239b3b55ae534978e41d45f31dfe1e65bb28c23a2eddb4de2f9347e9"
     },
     {
       "path": "index.html",
-      "sha256": "e82add13a835732dcbdbb86bb17cf9de868bb4ea78f707a3983fd76a64795acb"
+      "sha256": "e2316a90b6b3d4f514377bd209fb2038c0758ccfda17e9279ee2ae3b2851bd19"
     },
     {
       "path": "ja/index.html",
-      "sha256": "9ea80b9c7f2837ee03b2a1d1cab09eccdc0719dec5dd315125eb5b55dcdf7ea3"
+      "sha256": "163bf92a484ab559412b5fb8d27d9a158f4f7cfeb21c931f41f2bf2b8866ac8f"
+    },
+    {
+      "path": "pt/index.html",
+      "sha256": "469ade9e670de1d90a29b97e928b932b7c9ea2a039225682ed3fb5d1f5a9c5bf"
     },
     {
       "path": "robots.txt",
@@ -71,27 +132,47 @@
     },
     {
       "path": "ru/constructor-ai/index.html",
-      "sha256": "e3b9632f2de5fd44a2f6236c20d0c84cf674b1a998e7ad139004fae50083b205"
+      "sha256": "3b3882facc41ae3b807222463ae115b1a596f3a07af11d9b24107d6b0b74f37c"
     },
     {
       "path": "ru/index.html",
-      "sha256": "a9bea7593b5031d8c44d15f6fa50ce1e95d3505be8ee925966adc3ee8c08b4cc"
+      "sha256": "4b49b2530f9a57a758cae9318150ef2162d9b4e096b5fe89a9f5d3943a6509bd"
     },
     {
       "path": "sitemap.xml",
-      "sha256": "06c8326ab684efffa41ac49d8e30a9ea2b54343c2faf23cddfdf9d7b1e83c390"
+      "sha256": "6e10c2f6bf5fb44be26025460e1cc57657df24d275cbb12088efeec2098f9902"
+    },
+    {
+      "path": "translations/ar.json",
+      "sha256": "5aa6f63e0e1c2a57fdfcf9c16edb0026b5ff06b0c5d86b7f8415f88ebe6019a0"
+    },
+    {
+      "path": "translations/capital-core.json",
+      "sha256": "2211bd549e0cb96d696fec8f7e80aa6cc7916e2b7894a467d8bdfdf5ce7514cf"
+    },
+    {
+      "path": "translations/es.json",
+      "sha256": "2a0c807a55c9b72d85c6627ade3cc429c62601c902d39ca261f351da0ec84504"
+    },
+    {
+      "path": "translations/fr.json",
+      "sha256": "4d214969c668f0d8b329a6c8e69746757bf9761fd1da61737d4606edae989bca"
+    },
+    {
+      "path": "translations/pt.json",
+      "sha256": "2d7e3e78da52fe118c1920947b639d68f1ac31d888df030f4b60660c2ef7b32c"
     },
     {
       "path": "uk/constructor-ai/index.html",
-      "sha256": "dd93bd5ccd1ad9aff3e38c72d72cac3d27bbbf9dcc217d8dd137769edc03c8f1"
+      "sha256": "06b9ae47b71126fb50e172deb264687471608f71fe95298faaf7612bba2aeded"
     },
     {
       "path": "uk/index.html",
-      "sha256": "36d3e23074604f6ebcf8452f8941ce26be39aff30b369a127ea7afe53a28f78a"
+      "sha256": "cc336682a4ae4a507bcf58fcad821178bdf2d7a97af6aef7c34df4c210d1e901"
     },
     {
       "path": "zh/index.html",
-      "sha256": "5b0b75d8b7476240ac68081f88beb3dffae0b42794311dfa7ee5fbad30a0aa9f"
+      "sha256": "961d4b42b6e6dd8aecc5f9e0f61dcc8cd39984d6d5073dc62c4c344ad1fd9bb8"
     }
   ]
 }
