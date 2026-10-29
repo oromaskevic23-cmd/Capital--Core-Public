@@ -24,7 +24,7 @@
     },
     {
       "path": "ar/index.html",
-      "sha256": "93334154d68366a4f434786eb82809611886a14e3912e6aca0773fbcb804e643"
+      "sha256": "15d406fbe92a4fecc68405e43363019591312a6041b6cef2c19946d57751221a"
     },
     {
       "path": "assets/alexander-romaskevich.jpeg",
@@ -45,6 +45,14 @@
     {
       "path": "assets/imperial-core-favicon.png",
       "sha256": "53fa5f414e3f80e0d5911bac85c0f9fde005fa5cdbaaec451d8fdcf6f8024a80"
+    },
+    {
+      "path": "assets/imperial-core-future-city-900.webp",
+      "sha256": "abe296acf4eab6077b9123356078676ee73214ee64a2562b1ce8f523f6952ad8"
+    },
+    {
+      "path": "assets/imperial-core-future-city.webp",
+      "sha256": "4d5a897154a2ca042d758b19c882f739f2658a1f6ae6451861f9101bc60f475f"
     },
     {
       "path": "assets/imperial-core-logo.jpeg",
@@ -80,7 +88,7 @@
     },
     {
       "path": "brand/BRAND.md",
-      "sha256": "1c0d55b276daaf7890dc6dd6ffba94606a81322720a9f58f7736b072bef73883"
+      "sha256": "e51efa99e1440513356d008109a8cedeb3e6c7801f2555ee40709eff82bf3bc1"
     },
     {
       "path": "brand/imperial-core-emblem-original.png",
@@ -100,31 +108,31 @@
     },
     {
       "path": "constructor-ai/index.html",
-      "sha256": "b804da4d3b251b4bdb4ee86ecbbeb2848b7074f3ba400e1f645afc3f28b04609"
+      "sha256": "3fffae755d92d4af795039914bb3503b99df384e2767c3c182fa6488a4529fad"
     },
     {
       "path": "de-CH/index.html",
-      "sha256": "8ffd3bcfbadab1de3db3388cbc99d087340d56fee9ff7cf1cced84cf5dd26564"
+      "sha256": "27d872c66b6418374ec546afb757d216562bd1bfb9b3eb85298d15733f519469"
     },
     {
       "path": "es/index.html",
-      "sha256": "240bbbeec13d3cf88334cf0a001c6715defc4b2e700a88f3f2c64c3b644399ac"
+      "sha256": "d0f8a9c55cc0cef0c673189721f2dc637cb7dd6d7aa9a3490361b2d87f957f2c"
     },
     {
       "path": "fr/index.html",
-      "sha256": "91befa2f239b3b55ae534978e41d45f31dfe1e65bb28c23a2eddb4de2f9347e9"
+      "sha256": "7b56dee0ece176ac06fa0fa0f67c50245ce2864b718c3dc43c1aeece11a2335a"
     },
     {
       "path": "index.html",
-      "sha256": "e2316a90b6b3d4f514377bd209fb2038c0758ccfda17e9279ee2ae3b2851bd19"
+      "sha256": "0e0c696992252a6ea13884293b51a13508adb78f8f74a5b252799a9547793d9b"
     },
     {
       "path": "ja/index.html",
-      "sha256": "163bf92a484ab559412b5fb8d27d9a158f4f7cfeb21c931f41f2bf2b8866ac8f"
+      "sha256": "2d5a92ceee6547e055578070a4411fc44f0bbc9af2122105a1b284ac148e3593"
     },
     {
       "path": "pt/index.html",
-      "sha256": "469ade9e670de1d90a29b97e928b932b7c9ea2a039225682ed3fb5d1f5a9c5bf"
+      "sha256": "ee7688347a383a80b89032ad28461dcf44a4063ee403536a89211ffa0a504dad"
     },
     {
       "path": "robots.txt",
@@ -132,11 +140,11 @@
     },
     {
       "path": "ru/constructor-ai/index.html",
-      "sha256": "3b3882facc41ae3b807222463ae115b1a596f3a07af11d9b24107d6b0b74f37c"
+      "sha256": "6564c3b256f363804d8e8637a2d92705f7bcd70aa4240bf8b65715ffa356c6f9"
     },
     {
       "path": "ru/index.html",
-      "sha256": "4b49b2530f9a57a758cae9318150ef2162d9b4e096b5fe89a9f5d3943a6509bd"
+      "sha256": "fdebc71284c6c6f594f22b0c455983f85642f0cd2d8213979dca947ff259d125"
     },
     {
       "path": "sitemap.xml",
@@ -164,15 +172,15 @@
     },
     {
       "path": "uk/constructor-ai/index.html",
-      "sha256": "06b9ae47b71126fb50e172deb264687471608f71fe95298faaf7612bba2aeded"
+      "sha256": "88bf44ce0474a12d56dc84a35647b9032ee9204a7caf36fa6305c911c52f4555"
     },
     {
       "path": "uk/index.html",
-      "sha256": "cc336682a4ae4a507bcf58fcad821178bdf2d7a97af6aef7c34df4c210d1e901"
+      "sha256": "1ab05d36001d2d296b50c9298d26e1cb20707762715c16c682491d57068bc179"
     },
     {
       "path": "zh/index.html",
-      "sha256": "961d4b42b6e6dd8aecc5f9e0f61dcc8cd39984d6d5073dc62c4c344ad1fd9bb8"
+      "sha256": "1ed98a9c61c0c92465105f1ab47397fbd71dc8182073011278f405922ba9ba1f"
     }
   ]
 }

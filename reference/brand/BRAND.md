@@ -23,3 +23,7 @@ The owner suggested individual future-city panoramas for repositories: distinct,
 ## Continuity
 
 This file is a durable project record for future maintainers. It does not assert that a separate conversational memory service has been updated.
+
+## 29 October 2026 — uninterrupted future-city scene
+
+The current hero removes the entire row of rectangular agent tiles. It uses an original speculative skyline, the same crowned globe and a continuous transition into a midnight-blue starfield. Source: AI-assisted edit of the founder-supplied visual reference. Master generation SHA-256: `c06bed880945eb1e2cdc14f548156292768d1a92e873e13cdc6bdc0d8374b8fd`. The optimized website artifact is `../assets/imperial-core-future-city.webp`; the original reference remains a provenance record, not the current hero.
