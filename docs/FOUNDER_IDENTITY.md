@@ -9,12 +9,11 @@ Effective: **28 October 2026** · Owner directive: `IC-ASTRA-FOUNDER-ENTERPRISE-
 | Ukrainian name | Олександр Миколайович Ромаскевич |
 | Signature | RomaskevicH |
 | Role | Founder • Owner • CEO of IMPERIAL Core |
-| Ownership declaration | Alexander Romaskevich states that he owns 100% of IMPERIAL Core shares (SELF_DECLARED, 28 October 2026) |
 | HANTER role | AI Command Center / Chief Systems, subject to the founder's architectural decisions |
 
 Founder titles are owner-declared project roles, not independent verification of incorporation, employment, patent rights or external certification. HANTER's component title is not assigned to the founder.
 
-The owner’s 28 October 2026 instruction supersedes earlier personal title wording. Public titles are limited to Founder, Owner and CEO. The ownership statement is a first-party declaration, not a change to a share register or independent corporate verification. HANTER and the canonical architecture keep their existing names and authority boundaries.
+The owner’s 28 October 2026 instruction supersedes earlier personal title wording. Public titles are limited to Founder, Owner and CEO. HANTER and the canonical architecture keep their existing names and authority boundaries.
 
 ## English
 
@@ -39,7 +38,7 @@ Alexander Romaskevich (RomaskevicH) is the Founder, Owner and CEO of IMPERIAL Co
 - Name: `Alexander Romaskevich`
 - Company: `IMPERIAL Core`
 - Location: not publicly disclosed
-- Bio: `Founder • Owner • CEO of IMPERIAL Core | Sole shareholder (owner-declared) | Governed AI & verified engineering`
+- Bio: `Founder • Owner • CEO of IMPERIAL Core | Governed AI & verified engineering`
 - Website: `https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/` — the official public founder website. A separate ecosystem page is `https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/`.
 
 **Verified public GitHub profile repository (25 October 2026):** [oromaskevic23-cmd/oromaskevic23-cmd](https://github.com/oromaskevic23-cmd/oromaskevic23-cmd) now exists as a PUBLIC repository with a root [README.md](https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/blob/main/README.md). The earlier prepared [profile README template](../profile/README.md) remains historical source material. The profile repository's existence and README content were checked through the connected GitHub account; actual Google indexing and Knowledge Panel status remain NOT_VERIFIED.

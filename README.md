@@ -1,6 +1,6 @@
 # IMPERIAL Core
 
-<p align="center"><a href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"><img src="assets/imperial-core-logo.jpeg" alt="IMPERIAL Core — original gold crowned emblem" width="240"></a></p>
+<p align="center"><a href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"><img src="assets/imperial-core-emblem.webp" alt="IMPERIAL Core — crowned globe emblem" width="240"></a></p>
 
 **Engineering with Evidence.**
 
@@ -9,7 +9,6 @@ IMPERIAL Core is a founder-led AI-native engineering ecosystem under development
 **Alexander Romaskevich — RomaskevicH**  
 Founder • Owner • CEO of IMPERIAL Core  
 
-**My ownership declaration: I own 100% of IMPERIAL Core shares.**
 
 ## Official public websites · Alexander Romaskevich / RomaskevicH
 
@@ -61,5 +60,7 @@ Federated Multi-Orchestrator Architecture; multiple organizational structures an
 ## Documentation continuity
 
 [Historical public architecture notes](https://github.com/oromaskevic23-cmd/IMPERIAL-Core-Public/blob/6f52f3b0371b618529fe5bc3c857700ffc6802d1/README.md) remain in immutable Git history. The current identity contract supersedes older role wording. Historical designs are specifications, not proof of deployed capabilities. Existing rights and licenses are unchanged.
+
+[Authorship and provenance](NOTICE.md) · [Canonical visual identity](https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/brand/BRAND.md)
 
 **Build software. Verify everything.**
