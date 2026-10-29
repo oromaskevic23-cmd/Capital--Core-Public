@@ -1,0 +1,45 @@
+{
+  "schema": "constructor-studio-deployment-v1",
+  "files": [
+    {
+      "path": "studio.html",
+      "bytes": 2789,
+      "sha256": "cb5ddc7bfc7901a4d00a4acd6271cec3847e08b87a5d16bcd387aa59057a09d4"
+    },
+    {
+      "path": "studio.css",
+      "bytes": 1666,
+      "sha256": "961c0f816753bd2caf89035dd89e7775c20d7a3d5c1219f0fcd7f525a28191c0"
+    },
+    {
+      "path": "src/studio.mjs",
+      "bytes": 2255,
+      "sha256": "7ef66a41754632d2db27e66f0c4231522ff7b1ba9ab3e2a4364977fc3bbb1d1e"
+    },
+    {
+      "path": "src/project-domain.mjs",
+      "bytes": 4594,
+      "sha256": "d6721bfb5ac03035e0c8bd229ddccd8f6e71017eca2c074bcb74be7203a67ed4"
+    },
+    {
+      "path": "src/project-runtime.mjs",
+      "bytes": 6757,
+      "sha256": "7da281903171c8a7f646de306e7d8705d7c036091f872c0b854512cbe04b6678"
+    },
+    {
+      "path": "src/project-export.mjs",
+      "bytes": 7119,
+      "sha256": "60c473c2142c0912c4998d33d42c062c4a111738db30c043c7c16a98636e3ab2"
+    },
+    {
+      "path": "src/project.css",
+      "bytes": 1780,
+      "sha256": "126c9eb2760345bf3d66119887ecb9f316f05390274e8e5b0b3672df1f2891bc"
+    },
+    {
+      "path": "src/zip.mjs",
+      "bytes": 2616,
+      "sha256": "7402d9c785481fc09378c4b2007019d92b16fe57c401326cd16e53175eda1597"
+    }
+  ]
+}
