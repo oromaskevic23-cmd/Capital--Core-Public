@@ -1,6 +1,6 @@
 # Authorship
 
-Alexander Romaskevich — Александр Николаевич Ромаскевич — Олександр Миколайович Ромаскевич. Public signature: **RomaskevicH**.
+Alexander Romaskevich. Public signature: **RomaskevicH**.
 
 Founder • Owner • CEO of IMPERIAL Core.
 
