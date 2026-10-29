@@ -25,6 +25,7 @@ Both URLs are hosted on GitHub Pages, with 10 indexable language versions, sitem
 - [Public technology portfolio](docs/PORTFOLIO.md) and [verified engineering milestones](docs/EVIDENCE.md).
 - [Architecture](ARCHITECTURE.md), [roadmap](ROADMAP.md) and [change history](CHANGELOG.md).
 - [Security and responsible disclosure](SECURITY.md), [contributing](CONTRIBUTING.md) and [source provenance](PROVENANCE.md).
+- [English-only GitHub documentation standard](docs/GITHUB_ENGLISH_STANDARD.md).
 
 ## Public portfolio
 
