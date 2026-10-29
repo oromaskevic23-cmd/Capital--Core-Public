@@ -1,6 +1,6 @@
 # Google Founder Recognition — October 26, 2026
 
-**Founder:** Alexander Romaskevich — Александр Николаевич Ромаскевич — Олександр Миколайович Ромаскевич · RomaskevicH
+**Founder:** Alexander Romaskevich · RomaskevicH
 
 **Project:** IMPERIAL Core | Source: public GitHub Pages.  
 **Authority:** owner-directed SEO verification and public first-party links; no fabricated index/search rank claims.
@@ -64,8 +64,8 @@ The profile README and IMPERIAL Core README now link both exact sites from `main
 ## Search query watch list
 
 - `"Alexander Romaskevich" "RomaskevicH"`
-- `"Александр Николаевич Ромаскевич" "IMPERIAL Core"`
-- `"Олександр Миколайович Ромаскевич" "IMPERIAL Core"`
+- `Russian-language founder-name variant + "IMPERIAL Core"`
+- `Ukrainian-language founder-name variant + "IMPERIAL Core"`
 - `site:oromaskevic23-cmd.github.io/oromaskevic23-cmd/`
 - `site:oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/`
 
