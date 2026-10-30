@@ -1,5 +1,8 @@
 # Capital Core
 
+**Founding architect:** Alexander Nikolaevich Romaskevich (RomaskevicH). [Authorship](AUTHORS.md) · [License review](governance/LICENSE_INVENTORY.md).
+
+
 <p align="center">
   <img src="assets/capital-core-20261029.jpg" alt="Capital Core concept with architecture and global real estate themes">
 </p>
